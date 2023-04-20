@@ -1,0 +1,2 @@
+"id","fqdn/ip","port","severity","finding","cve","cwe"
+"optimal_proto","www.lathiere-finances.fr/217.160.0.141","443","WARN","217.160.0.141:443 doesn't seem to be a TLS/SSL enabled server.","",""
