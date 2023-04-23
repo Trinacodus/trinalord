@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Thu, 20 Apr 2023 19:23:08",
+	"@generated": "Sun, 23 Apr 2023 01:30:14",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -281,7 +281,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682018577\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682213402\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -297,7 +297,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682018577\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213402\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -313,7 +313,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682018579\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682213404\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -329,7 +329,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682018579\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213404\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -345,7 +345,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682018579\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682213404\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -361,7 +361,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682018579\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213404\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -477,17 +477,9 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682018577",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682213402",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682018577\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682018578",
-							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682018578\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213402\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -541,9 +533,9 @@
 						{
 							"uri": "http://www.lathiere-finances.fr/protected/",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682018579",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682213404",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682018579\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213404\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -555,7 +547,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "15",
+					"count": "14",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -733,8 +725,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1682018577",
-							"otherinfo": "1682018577, which evaluates to: 2023-04-20 19:22:57"
+							"evidence": "1682213402",
+							"otherinfo": "1682213402, which evaluates to: 2023-04-23 01:30:02"
 						}
 					],
 					"count": "7",
@@ -788,6 +780,14 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
+							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
 							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -813,14 +813,6 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1679255187",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1679291297",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -858,7 +850,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10038",
@@ -978,6 +970,14 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
+							"uri": "http://www.lathiere-finances.fr/mentions-l%C3%A9gales/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
 							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
 							"method": "GET",
 							"param": "",
@@ -1003,14 +1003,6 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/sitemap/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
