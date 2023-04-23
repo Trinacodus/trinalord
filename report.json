@@ -5,7 +5,7 @@
     "http": {
       "url": "http://www.lathiere-finances.fr",
       "algorithm_version": 2,
-      "end_time": "Thu, 20 Apr 2023 19:14:34 GMT",
+      "end_time": "Sun, 23 Apr 2023 01:30:52 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -13,22 +13,22 @@
         "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
-        "Content-Length": "5552",
+        "Content-Length": "5551",
         "Content-Security-Policy-Report-Only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Thu, 20 Apr 2023 19:14:31 GMT",
+        "Date": "Sun, 23 Apr 2023 01:30:49 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Keep-Alive": "timeout=15",
         "Pragma": "no-cache",
         "Server": "Apache",
-        "Set-Cookie": "DIY_SB=a9e41752c4c0b6e2e3c57a3e0ee84fa9; path=/;SameSite=Lax",
+        "Set-Cookie": "DIY_SB=6a7edfa433fdffe28c1b4143eaa9e42c; path=/;SameSite=Lax",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-Xss-Protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
       },
-      "scan_id": 36562072,
+      "scan_id": 36620357,
       "score": 0,
-      "start_time": "Thu, 20 Apr 2023 19:14:29 GMT",
+      "start_time": "Sun, 23 Apr 2023 01:30:48 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 7,
@@ -189,7 +189,7 @@
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682018071": {
+              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682213449": {
                 "crossorigin": null,
                 "integrity": null
               },
@@ -264,11 +264,11 @@
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1682018393"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1682213200"
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682018393"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682213200"
         },
         {
           "type": "unknown",
@@ -314,7 +314,7 @@
       "cookies": [
         {
           "name": "DIY_SB",
-          "value": "48d4598012f7766ccf463696d98d60b0",
+          "value": "57969605b01a56e6a477609e2070a25f",
           "domain": "www.lathiere-finances.fr",
           "path": "/",
           "expires": -1,
@@ -332,15 +332,15 @@
         "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "connection": "keep-alive",
         "content-encoding": "gzip",
-        "content-length": "5553",
+        "content-length": "5550",
         "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Thu, 20 Apr 2023 19:19:52 GMT",
+        "date": "Sun, 23 Apr 2023 01:26:40 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "keep-alive": "timeout=15",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "DIY_SB=48d4598012f7766ccf463696d98d60b0; path=/;SameSite=Lax",
+        "set-cookie": "DIY_SB=57969605b01a56e6a477609e2070a25f; path=/;SameSite=Lax",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
         "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
@@ -725,7 +725,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.12.0",
-      "@generated": "Thu, 20 Apr 2023 19:23:08",
+      "@generated": "Sun, 23 Apr 2023 01:30:14",
       "site": [
         {
           "@name": "http://www.lathiere-finances.fr",
@@ -833,7 +833,7 @@
       {
         "requestedUrl": "http://www.lathiere-finances.fr/",
         "finalUrl": "http://www.lathiere-finances.fr/",
-        "fetchTime": "2023-04-20T19:23:29.826Z",
+        "fetchTime": "2023-04-23T01:30:35.641Z",
         "runWarnings": [],
         "categories": {
           "performance": {
@@ -844,7 +844,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.972370719909668
+            "score": 0.9723711013793945
           },
           "accessibility": {
             "title": "Accessibility",
@@ -896,53 +896,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3020,
+            "numericValue": 3006,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2793,
-                  "firstMeaningfulPaint": 2804,
-                  "largestContentfulPaint": 2804,
-                  "interactive": 3020,
-                  "speedIndex": 4668,
-                  "totalBlockingTime": 6,
-                  "maxPotentialFID": 71,
+                  "firstContentfulPaint": 2781,
+                  "firstMeaningfulPaint": 2791,
+                  "largestContentfulPaint": 2942,
+                  "interactive": 3006,
+                  "speedIndex": 4664,
+                  "totalBlockingTime": 7,
+                  "maxPotentialFID": 78,
                   "cumulativeLayoutShift": 0.24420521206325957,
                   "cumulativeLayoutShiftMainFrame": 0.24420521206325957,
                   "totalCumulativeLayoutShift": 0.24420521206325957,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 461555829,
+                  "observedTimeOriginTs": 416070920,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 461555829,
-                  "observedFirstPaint": 1670,
-                  "observedFirstPaintTs": 463225869,
-                  "observedFirstContentfulPaint": 1670,
-                  "observedFirstContentfulPaintTs": 463225869,
-                  "observedFirstContentfulPaintAllFrames": 1670,
-                  "observedFirstContentfulPaintAllFramesTs": 463225869,
-                  "observedFirstMeaningfulPaint": 1670,
-                  "observedFirstMeaningfulPaintTs": 463225869,
-                  "observedLargestContentfulPaint": 1676,
-                  "observedLargestContentfulPaintTs": 463232091,
-                  "observedLargestContentfulPaintAllFrames": 1676,
-                  "observedLargestContentfulPaintAllFramesTs": 463232091,
-                  "observedTraceEnd": 4983,
-                  "observedTraceEndTs": 466539254,
-                  "observedLoad": 2667,
-                  "observedLoadTs": 464223220,
-                  "observedDomContentLoaded": 1662,
-                  "observedDomContentLoadedTs": 463218265,
+                  "observedNavigationStartTs": 416070920,
+                  "observedFirstPaint": 1685,
+                  "observedFirstPaintTs": 417755993,
+                  "observedFirstContentfulPaint": 1685,
+                  "observedFirstContentfulPaintTs": 417755993,
+                  "observedFirstContentfulPaintAllFrames": 1685,
+                  "observedFirstContentfulPaintAllFramesTs": 417755993,
+                  "observedFirstMeaningfulPaint": 1685,
+                  "observedFirstMeaningfulPaintTs": 417755993,
+                  "observedLargestContentfulPaint": 1689,
+                  "observedLargestContentfulPaintTs": 417759913,
+                  "observedLargestContentfulPaintAllFrames": 1689,
+                  "observedLargestContentfulPaintAllFramesTs": 417759913,
+                  "observedTraceEnd": 5003,
+                  "observedTraceEndTs": 421073913,
+                  "observedLoad": 2683,
+                  "observedLoadTs": 418754396,
+                  "observedDomContentLoaded": 1676,
+                  "observedDomContentLoadedTs": 417747335,
                   "observedCumulativeLayoutShift": 0.24420521206325957,
                   "observedCumulativeLayoutShiftMainFrame": 0.24420521206325957,
                   "observedTotalCumulativeLayoutShift": 0.24420521206325957,
-                  "observedFirstVisualChange": 1658,
-                  "observedFirstVisualChangeTs": 463213829,
-                  "observedLastVisualChange": 2692,
-                  "observedLastVisualChangeTs": 464247829,
-                  "observedSpeedIndex": 2091,
-                  "observedSpeedIndexTs": 463647287
+                  "observedFirstVisualChange": 1679,
+                  "observedFirstVisualChangeTs": 417749920,
+                  "observedLastVisualChange": 2712,
+                  "observedLastVisualChangeTs": 418782920,
+                  "observedSpeedIndex": 2087,
+                  "observedSpeedIndexTs": 418157773
                 },
                 {
                   "lcpInvalidated": false
@@ -964,19 +964,19 @@
                   "numScripts": 7,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 972,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 1,
-                  "numTasksOver50ms": 0,
+                  "numTasks": 954,
+                  "numTasksOver10ms": 6,
+                  "numTasksOver25ms": 3,
+                  "numTasksOver50ms": 1,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 157.762,
-                  "throughput": 5736972.561574875,
-                  "maxRtt": 159.986,
-                  "maxServerLatency": 45.335000000000036,
-                  "totalByteWeight": 1193433,
-                  "totalTaskTime": 217.27799999999885,
-                  "mainDocumentTransferSize": 6337
+                  "rtt": 158.793,
+                  "throughput": 5722486.512599934,
+                  "maxRtt": 160.362,
+                  "maxServerLatency": 40.503000000000014,
+                  "totalByteWeight": 1193431,
+                  "totalTaskTime": 353.55900000000116,
+                  "mainDocumentTransferSize": 6334
                 }
               ]
             }
@@ -999,7 +999,7 @@
         "width": 1920,
         "height": 1080,
         "url": "http://www.lathiere-finances.fr",
-        "size": 1220.355,
+        "size": 1220.354,
         "nodes": 278,
         "requests": 24,
         "grade": "B",
@@ -1007,7 +1007,7 @@
         "ges": 1.48,
         "water": 2.22,
         "ecoindex_version": "5.4.2",
-        "date": "2023-04-20 19:21:09.308528",
+        "date": "2023-04-23 01:28:00.434197",
         "page_type": "business.business"
       }
     ],
@@ -1019,7 +1019,7 @@
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 16,
-      "lighthouse_performance": 0.972370719909668,
+      "lighthouse_performance": 0.9723711013793945,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.81,
       "lighthouse_accessibilityGrade": "B",
