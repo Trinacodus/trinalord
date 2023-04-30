@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 23 Apr 2023 01:30:14",
+	"@generated": "Sun, 30 Apr 2023 01:26:22",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -281,7 +281,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682213402\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682817971\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -297,7 +297,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213402\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682817971\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -313,7 +313,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682213404\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682817973\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -329,7 +329,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213404\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682817973\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -345,7 +345,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682213404\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1682817973\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -361,7 +361,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213404\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682817973\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -477,9 +477,9 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682213402",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682817971",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213402\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682817971\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -491,31 +491,31 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1681303886733",
+							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1677252402287",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1681303886733\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1677252402287\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1681303886733",
+							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1681303886733\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1681303886733",
+							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1677252402287",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1681303886733\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1677252402287\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
 							"param": "//cdn.website-start.de/mod/common/files/generated/modules-main-fr_FR.js",
 							"attack": "",
@@ -523,23 +523,23 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
-							"param": "//cdn.website-start.de/s/build/web.bundle.js?1681303886733",
+							"param": "//cdn.website-start.de/s/build/web.bundle.js?1677252402287",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1681303886733\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1677252402287\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682213404",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1682817973",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682213404\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1682817973\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
+							"uri": "http://www.lathiere-finances.fr/c/",
 							"method": "GET",
 							"param": "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/",
 							"attack": "",
@@ -575,6 +575,14 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/assurances/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -639,14 +647,6 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/sitemap/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -725,8 +725,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1682213402",
-							"otherinfo": "1682213402, which evaluates to: 2023-04-23 01:30:02"
+							"evidence": "1682817971",
+							"otherinfo": "1682817971, which evaluates to: 2023-04-30 01:26:11"
 						}
 					],
 					"count": "7",
@@ -780,14 +780,6 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506",
-							"method": "GET",
-							"param": "X-Content-Type-Options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
 							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
@@ -813,6 +805,14 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1679255187",
+							"method": "GET",
+							"param": "X-Content-Type-Options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1679291297",
 							"method": "GET",
 							"param": "X-Content-Type-Options",
 							"attack": "",
@@ -850,7 +850,7 @@
 					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10038",
@@ -938,6 +938,14 @@
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
+							"uri": "http://www.lathiere-finances.fr/assurances/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
+							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
+						},
+						{
 							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
 							"method": "GET",
 							"param": "",
@@ -963,14 +971,6 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/mentions-l%C3%A9gales/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1037,14 +1037,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
 							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
 							"method": "GET",
 							"param": "",
@@ -1054,6 +1046,14 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/c/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "no-store",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/contact/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1174,7 +1174,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "169"
+					"sourceid": "167"
 				}
 			]
 		}
