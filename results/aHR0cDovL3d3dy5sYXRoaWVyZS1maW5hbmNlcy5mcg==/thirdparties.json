@@ -2,22 +2,6 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1677252402287"
-    },
-    {
-      "type": "unknown",
-      "url": "http://cdn.website-start.de/s/build/web.bundle.js?1677252402287"
-    },
-    {
-      "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1677252402287"
-    },
-    {
-      "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287"
-    },
-    {
-      "type": "unknown",
       "url": "http://cdn.website-start.de/templates/2134/style.css?1677252402287"
     },
     {
@@ -34,11 +18,23 @@
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1684027356"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1684632263"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1684027356"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1684632263"
+    },
+    {
+      "type": "unknown",
+      "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1677252402287"
+    },
+    {
+      "type": "unknown",
+      "url": "http://cdn.website-start.de/s/build/web.bundle.js?1677252402287"
+    },
+    {
+      "type": "unknown",
+      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1677252402287"
     },
     {
       "type": "unknown",
@@ -47,6 +43,10 @@
     {
       "type": "unknown",
       "url": "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/"
+    },
+    {
+      "type": "unknown",
+      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287"
     },
     {
       "type": "unknown",
@@ -68,7 +68,7 @@
   "cookies": [
     {
       "name": "DIY_SB",
-      "value": "c6de85dae2fcaf079a074e322d5e6a6f",
+      "value": "e0618e94be95b511482cd12ee764c982",
       "domain": "www.lathiere-finances.fr",
       "path": "/",
       "expires": -1,
@@ -86,15 +86,15 @@
     "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "5551",
+    "content-length": "5552",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 14 May 2023 01:22:35 GMT",
+    "date": "Sun, 21 May 2023 01:24:23 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=15",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=c6de85dae2fcaf079a074e322d5e6a6f; path=/;SameSite=Lax",
+    "set-cookie": "DIY_SB=e0618e94be95b511482cd12ee764c982; path=/;SameSite=Lax",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
