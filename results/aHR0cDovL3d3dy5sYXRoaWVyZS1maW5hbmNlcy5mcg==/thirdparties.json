@@ -18,11 +18,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1685237278"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1685843664"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1685237278"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1685843664"
     },
     {
       "type": "unknown",
@@ -38,15 +38,15 @@
     },
     {
       "type": "unknown",
+      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287"
+    },
+    {
+      "type": "unknown",
       "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1677252402287"
     },
     {
       "type": "unknown",
       "url": "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/"
-    },
-    {
-      "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287"
     },
     {
       "type": "unknown",
@@ -68,7 +68,7 @@
   "cookies": [
     {
       "name": "DIY_SB",
-      "value": "227ebe2618ce5904ee452221362c1e38",
+      "value": "be9f660f370415345f52bea21c905bf5",
       "domain": "www.lathiere-finances.fr",
       "path": "/",
       "expires": -1,
@@ -89,12 +89,12 @@
     "content-length": "5552",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 28 May 2023 01:27:58 GMT",
+    "date": "Sun, 04 Jun 2023 01:54:24 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=15",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=227ebe2618ce5904ee452221362c1e38; path=/;SameSite=Lax",
+    "set-cookie": "DIY_SB=be9f660f370415345f52bea21c905bf5; path=/;SameSite=Lax",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
