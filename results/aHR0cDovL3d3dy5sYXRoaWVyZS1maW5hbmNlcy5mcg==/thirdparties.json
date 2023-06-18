@@ -2,47 +2,47 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/templates/2134/style.css?1677252402287"
+      "url": "http://cdn.website-start.de/templates/2134/style.css?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1677252402287"
+      "url": "http://cdn.website-start.de/app/cdn/min/group/web.css?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/s/build/web.bundle.js?1677252402287"
+      "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1677252402287"
+      "url": "http://cdn.website-start.de/s/build/web.bundle.js?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1677252402287"
+      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/web.css?1677252402287"
+      "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1677252402287"
+      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1677252402287"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1687052822"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1686448121"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1687052822"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1686448121"
+      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1681303886733"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1677252402287"
+      "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1681303886733"
     },
     {
       "type": "unknown",
@@ -62,13 +62,13 @@
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/templates/2134/print.css?1677252402287"
+      "url": "http://cdn.website-start.de/templates/2134/print.css?1681303886733"
     }
   ],
   "cookies": [
     {
       "name": "DIY_SB",
-      "value": "506363e4888f916002914484f1fd7c67",
+      "value": "01b1eebd0c79f2f4db0be1cc788aace5",
       "domain": "www.lathiere-finances.fr",
       "path": "/",
       "expires": -1,
@@ -86,15 +86,15 @@
     "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
     "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "5552",
+    "content-length": "5551",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 11 Jun 2023 01:48:41 GMT",
+    "date": "Sun, 18 Jun 2023 01:47:02 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "keep-alive": "timeout=15",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=506363e4888f916002914484f1fd7c67; path=/;SameSite=Lax",
+    "set-cookie": "DIY_SB=01b1eebd0c79f2f4db0be1cc788aace5; path=/;SameSite=Lax",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
