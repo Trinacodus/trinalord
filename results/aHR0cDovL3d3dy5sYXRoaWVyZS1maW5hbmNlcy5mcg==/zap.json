@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 30 Jul 2023 01:21:55",
+	"@generated": "Sun, 6 Aug 2023 01:15:01",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -98,7 +98,7 @@
 					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>http://cwe.mitre.org/data/definitions/352.html</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "72"
+					"sourceid": "71"
 				},
 				{
 					"pluginid": "10038",
@@ -112,14 +112,6 @@
 					"instances":[ 
 						{
 							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -144,6 +136,14 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/protected/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -264,7 +264,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "19"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -281,7 +281,15 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1690680106\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1691284490\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1691284491\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -297,7 +305,15 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1690680106\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1691284490\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1691284491\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -313,7 +329,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1690680107\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1691284492\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -329,7 +345,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1690680107\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1691284492\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -341,7 +357,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "8",
+					"count": "10",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
@@ -445,9 +461,17 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1690680106",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1691284490",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1690680106\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1691284490\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr",
+							"method": "GET",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1691284491",
+							"attack": "",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1691284491\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -459,7 +483,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "7",
+					"count": "8",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -645,8 +669,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1690680106",
-							"otherinfo": "1690680106, which evaluates to: 2023-07-30 01:21:46"
+							"evidence": "1691284490",
+							"otherinfo": "1691284490, which evaluates to: 2023-08-06 01:14:50"
 						}
 					],
 					"count": "8",
@@ -684,7 +708,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/cache_2472199697.png?t=1487965670",
+							"uri": "http://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -692,7 +716,7 @@
 							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756",
+							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506",
 							"method": "GET",
 							"param": "x-content-type-options",
 							"attack": "",
@@ -797,7 +821,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "135"
+					"sourceid": "137"
 				},
 				{
 					"pluginid": "10038",
@@ -811,14 +835,6 @@
 					"instances":[ 
 						{
 							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -843,6 +859,14 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/protected/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -992,14 +1016,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/assurances/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
 							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
 							"method": "GET",
 							"param": "",
@@ -1009,6 +1025,14 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/c/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "no-store",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1259,7 +1283,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "4d01591b0a7a1055cd32f413cdff460d",
+							"evidence": "11a40089e2232c1e614c093612c1c3b6",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1267,7 +1291,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "dad341b0e0f6943bc71362a82e6e37b2",
+							"evidence": "6d1f9c942d066ee3bd3b7c43e34d2c98",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1275,7 +1299,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "02e642421f599cd9fba1cdb3727c2f3d",
+							"evidence": "da224652be7b8505aab76b135d10042c",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1283,15 +1307,15 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "b75011378a5b66dadbbf765103555f34",
+							"evidence": "04203472d8c83ed5f4e3918a48a06ca4",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr",
+							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "dad341b0e0f6943bc71362a82e6e37b2",
+							"evidence": "04203472d8c83ed5f4e3918a48a06ca4",
 							"otherinfo": "\ncookie:DIY_SB"
 						}
 					],
@@ -1352,7 +1376,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "169"
+					"sourceid": "167"
 				}
 			]
 		}
