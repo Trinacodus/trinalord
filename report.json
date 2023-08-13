@@ -5,7 +5,7 @@
     "http": {
       "url": "http://www.lathiere-finances.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 06 Aug 2023 01:15:37 GMT",
+      "end_time": "Sun, 13 Aug 2023 01:10:46 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -13,22 +13,22 @@
         "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
-        "Content-Length": "5555",
+        "Content-Length": "5553",
         "Content-Security-Policy-Report-Only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 06 Aug 2023 01:15:35 GMT",
+        "Date": "Sun, 13 Aug 2023 01:10:43 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Keep-Alive": "timeout=15",
         "Pragma": "no-cache",
         "Server": "Apache",
-        "Set-Cookie": "DIY_SB=02ca1d399d20244a854e57cb68e26b54; path=/;SameSite=Lax",
+        "Set-Cookie": "DIY_SB=81492692539605acdd35abb073a881a4; path=/;SameSite=Lax",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-Xss-Protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
       },
-      "scan_id": 40397035,
+      "scan_id": 40735369,
       "score": 0,
-      "start_time": "Sun, 06 Aug 2023 01:15:34 GMT",
+      "start_time": "Sun, 13 Aug 2023 01:10:42 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 7,
@@ -169,27 +169,27 @@
           "name": "subresource-integrity",
           "output": {
             "data": {
-              "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1681303886733": {
+              "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1690986500424": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1681303886733": {
+              "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1690986500424": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "//cdn.website-start.de/app/cdn/min/group/web.js?1681303886733": {
+              "//cdn.website-start.de/app/cdn/min/group/web.js?1690986500424": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1681303886733": {
+              "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1690986500424": {
                 "crossorigin": null,
                 "integrity": null
               },
-              "//cdn.website-start.de/s/build/web.bundle.js?1681303886733": {
+              "//cdn.website-start.de/s/build/web.bundle.js?1690986500424": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1691284535": {
+              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1691889043": {
                 "crossorigin": null,
                 "integrity": null
               },
@@ -248,51 +248,51 @@
       "trackers": [
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/templates/2134/style.css?1681303886733"
+          "url": "http://cdn.website-start.de/templates/2134/style.css?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/web.css?1681303886733"
+          "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1681303886733"
+          "url": "http://cdn.website-start.de/s/build/web.bundle.js?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1681303886733"
+          "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1691284301"
+          "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1691284301"
+          "url": "http://cdn.website-start.de/app/cdn/min/group/web.css?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1681303886733"
+          "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/s/build/web.bundle.js?1681303886733"
+          "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1690986500424"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1681303886733"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1691888844"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1681303886733"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1691888844"
+        },
+        {
+          "type": "unknown",
+          "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1690986500424"
         },
         {
           "type": "unknown",
           "url": "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/"
-        },
-        {
-          "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1681303886733"
         },
         {
           "type": "unknown",
@@ -308,13 +308,13 @@
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/templates/2134/print.css?1681303886733"
+          "url": "http://cdn.website-start.de/templates/2134/print.css?1690986500424"
         }
       ],
       "cookies": [
         {
           "name": "DIY_SB",
-          "value": "92e908f3f3724ec04aaa6619bdb52dee",
+          "value": "82f2d25dc56722f42753331bd16e1a90",
           "domain": "www.lathiere-finances.fr",
           "path": "/",
           "expires": -1,
@@ -332,15 +332,15 @@
         "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "connection": "keep-alive",
         "content-encoding": "gzip",
-        "content-length": "5555",
+        "content-length": "5549",
         "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 06 Aug 2023 01:11:41 GMT",
+        "date": "Sun, 13 Aug 2023 01:07:24 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "keep-alive": "timeout=15",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "DIY_SB=92e908f3f3724ec04aaa6619bdb52dee; path=/;SameSite=Lax",
+        "set-cookie": "DIY_SB=82f2d25dc56722f42753331bd16e1a90; path=/;SameSite=Lax",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
         "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
@@ -526,17 +526,22 @@
         {
           "slug": "duda",
           "name": "Duda",
-          "description": "Duda is a web design platform for companies that offer web design services.",
+          "description": "Duda is a user-friendly website builder and CMS platform that enables businesses and individuals to create responsive, mobile-friendly websites without extensive coding knowledge.",
           "confidence": 100,
           "version": null,
-          "icon": "duda.png",
-          "website": "https://www.duda.co/website-builder",
+          "icon": "Duda.svg",
+          "website": "https://www.duda.co",
           "cpe": null,
           "categories": [
             {
               "id": 1,
               "slug": "cms",
               "name": "CMS"
+            },
+            {
+              "id": 51,
+              "slug": "page-builders",
+              "name": "Page builders"
             }
           ]
         },
@@ -725,7 +730,7 @@
     "zap": {
       "@programName": "OWASP ZAP",
       "@version": "2.13.0",
-      "@generated": "Sun, 6 Aug 2023 01:15:01",
+      "@generated": "Sun, 13 Aug 2023 01:10:13",
       "site": [
         {
           "@name": "http://www.lathiere-finances.fr",
@@ -875,10 +880,8 @@
       {
         "requestedUrl": "http://www.lathiere-finances.fr/",
         "finalUrl": "http://www.lathiere-finances.fr/",
-        "fetchTime": "2023-08-06T01:15:21.929Z",
-        "runWarnings": [
-          "The tested device appears to have a slower CPU than  Lighthouse expects. This can negatively affect your performance score. Learn more about [calibrating an appropriate CPU slowdown multiplier](https://github.com/GoogleChrome/lighthouse/blob/master/docs/throttling.md#cpu-throttling)."
-        ],
+        "fetchTime": "2023-08-13T01:10:30.594Z",
+        "runWarnings": [],
         "categories": {
           "performance": {
             "title": "Performance",
@@ -888,7 +891,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.9723699569702149
+            "score": 0.9723701477050781
           },
           "accessibility": {
             "title": "Accessibility",
@@ -940,53 +943,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3014,
+            "numericValue": 2762,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2788,
-                  "firstMeaningfulPaint": 2799,
-                  "largestContentfulPaint": 2949,
-                  "interactive": 3014,
-                  "speedIndex": 4694,
-                  "totalBlockingTime": 10,
-                  "maxPotentialFID": 69,
-                  "cumulativeLayoutShift": 0.12409779018825956,
-                  "cumulativeLayoutShiftMainFrame": 0.12409779018825956,
-                  "totalCumulativeLayoutShift": 0.12409779018825956,
+                  "firstContentfulPaint": 2762,
+                  "firstMeaningfulPaint": 2762,
+                  "largestContentfulPaint": 2762,
+                  "interactive": 2762,
+                  "speedIndex": 4258,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 46,
+                  "cumulativeLayoutShift": 0.24420521206325957,
+                  "cumulativeLayoutShiftMainFrame": 0.24420521206325957,
+                  "totalCumulativeLayoutShift": 0.24420521206325957,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 336498993,
+                  "observedTimeOriginTs": 271736951,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 336498993,
-                  "observedFirstPaint": 1703,
-                  "observedFirstPaintTs": 338202190,
-                  "observedFirstContentfulPaint": 1703,
-                  "observedFirstContentfulPaintTs": 338202190,
-                  "observedFirstContentfulPaintAllFrames": 1703,
-                  "observedFirstContentfulPaintAllFramesTs": 338202190,
-                  "observedFirstMeaningfulPaint": 1703,
-                  "observedFirstMeaningfulPaintTs": 338202190,
-                  "observedLargestContentfulPaint": 1710,
-                  "observedLargestContentfulPaintTs": 338208856,
-                  "observedLargestContentfulPaintAllFrames": 1710,
-                  "observedLargestContentfulPaintAllFramesTs": 338208856,
-                  "observedTraceEnd": 4998,
-                  "observedTraceEndTs": 341497331,
-                  "observedLoad": 2679,
-                  "observedLoadTs": 339177910,
-                  "observedDomContentLoaded": 1699,
-                  "observedDomContentLoadedTs": 338198103,
-                  "observedCumulativeLayoutShift": 0.12409779018825956,
-                  "observedCumulativeLayoutShiftMainFrame": 0.12409779018825956,
-                  "observedTotalCumulativeLayoutShift": 0.12409779018825956,
-                  "observedFirstVisualChange": 1704,
-                  "observedFirstVisualChangeTs": 338202993,
-                  "observedLastVisualChange": 2704,
-                  "observedLastVisualChangeTs": 339202993,
-                  "observedSpeedIndex": 2122,
-                  "observedSpeedIndexTs": 338621121
+                  "observedNavigationStartTs": 271736951,
+                  "observedFirstPaint": 1414,
+                  "observedFirstPaintTs": 273150988,
+                  "observedFirstContentfulPaint": 1414,
+                  "observedFirstContentfulPaintTs": 273150988,
+                  "observedFirstContentfulPaintAllFrames": 1414,
+                  "observedFirstContentfulPaintAllFramesTs": 273150988,
+                  "observedFirstMeaningfulPaint": 1414,
+                  "observedFirstMeaningfulPaintTs": 273150988,
+                  "observedLargestContentfulPaint": 1520,
+                  "observedLargestContentfulPaintTs": 273257250,
+                  "observedLargestContentfulPaintAllFrames": 1520,
+                  "observedLargestContentfulPaintAllFramesTs": 273257250,
+                  "observedTraceEnd": 4752,
+                  "observedTraceEndTs": 276489010,
+                  "observedLoad": 2441,
+                  "observedLoadTs": 274178137,
+                  "observedDomContentLoaded": 1411,
+                  "observedDomContentLoadedTs": 273148433,
+                  "observedCumulativeLayoutShift": 0.24420521206325957,
+                  "observedCumulativeLayoutShiftMainFrame": 0.24420521206325957,
+                  "observedTotalCumulativeLayoutShift": 0.24420521206325957,
+                  "observedFirstVisualChange": 1418,
+                  "observedFirstVisualChangeTs": 273154951,
+                  "observedLastVisualChange": 2468,
+                  "observedLastVisualChangeTs": 274204951,
+                  "observedSpeedIndex": 1844,
+                  "observedSpeedIndexTs": 273580556
                 },
                 {
                   "lcpInvalidated": false
@@ -1008,19 +1011,19 @@
                   "numScripts": 7,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 951,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 2,
+                  "numTasks": 996,
+                  "numTasksOver10ms": 2,
+                  "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 157.913,
-                  "throughput": 5752210.512617509,
-                  "maxRtt": 159.1,
-                  "maxServerLatency": 24.82800000000006,
-                  "totalByteWeight": 1193437,
-                  "totalTaskTime": 266.94899999999905,
-                  "mainDocumentTransferSize": 6340
+                  "rtt": 143.455,
+                  "throughput": 6587068.42487572,
+                  "maxRtt": 149.615,
+                  "maxServerLatency": 42.77000000000004,
+                  "totalByteWeight": 1193436,
+                  "totalTaskTime": 141.97599999999966,
+                  "mainDocumentTransferSize": 6339
                 }
               ]
             }
@@ -1043,15 +1046,15 @@
         "width": 1920,
         "height": 1080,
         "url": "http://www.lathiere-finances.fr",
-        "size": 1220.356,
-        "nodes": 278,
+        "size": 1220.367,
+        "nodes": 279,
         "requests": 24,
         "grade": "B",
         "score": 76,
         "ges": 1.48,
         "water": 2.22,
         "ecoindex_version": "5.4.2",
-        "date": "2023-08-06 01:13:01.154680",
+        "date": "2023-08-13 01:08:34.621990",
         "page_type": "business.business"
       }
     ],
@@ -1063,7 +1066,7 @@
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 16,
-      "lighthouse_performance": 0.9723699569702149,
+      "lighthouse_performance": 0.9723701477050781,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.81,
       "lighthouse_accessibilityGrade": "B",
