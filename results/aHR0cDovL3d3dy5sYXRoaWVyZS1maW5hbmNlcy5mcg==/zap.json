@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 10 Sep 2023 01:12:51",
+	"@generated": "Sun, 17 Sep 2023 01:13:40",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -9,97 +9,6 @@
 			"@port": "80",
 			"@ssl": "false",
 			"alerts": [ 
-				{
-					"pluginid": "10202",
-					"alertRef": "10202",
-					"alert": "Absence of Anti-CSRF Tokens",
-					"name": "Absence of Anti-CSRF Tokens",
-					"riskcode": "2",
-					"confidence": "1",
-					"riskdesc": "Medium (Low)",
-					"desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>",
-					"instances":[ 
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5809307462\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809307462-text-2029001\" \"mod-form-5809307462-text-2029002\" \"mod-form-5809307462-text-2029003\" \"mod-form-5809307462-text-2029004\" \"mod-form-5809307462-text-2029005\" \"mod-form-5809307462-text-2029006\" \"mod-form-5809307462-text-2029011\" \"mod-form-5809307462-text-2029012\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5809307462\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809307462-text-2029001\" \"mod-form-5809307462-text-2029002\" \"mod-form-5809307462-text-2029003\" \"mod-form-5809307462-text-2029004\" \"mod-form-5809307462-text-2029005\" \"mod-form-5809307462-text-2029006\" \"mod-form-5809307462-text-2029011\" \"mod-form-5809307462-text-2029012\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5801847522\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"legal\" \"mod-form-5801847522-text-1306335\" \"mod-form-5801847522-text-1306338\" \"mod-form-5801847522-text-1306339\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/?legal=on&mod-form-5801847522-text-1306335=ZAP&mod-form-5801847522-text-1306338=ZAP&mod-form-5801847522-text-1306339=ZAP&mod-form-5801847522-textarea-1306343&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5801847522\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"legal\" \"mod-form-5801847522-text-1306335\" \"mod-form-5801847522-text-1306338\" \"mod-form-5801847522-text-1306339\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5809330330\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809330330-text-2029898\" \"mod-form-5809330330-text-2029901\" \"mod-form-5809330330-text-2029902\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/?mod-form-5809330330-text-2029898=ZAP&mod-form-5809330330-text-2029901=ZAP&mod-form-5809330330-text-2029902=ZAP&mod-form-5809330330-textarea-2029906&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5809330330\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809330330-text-2029898\" \"mod-form-5809330330-text-2029901\" \"mod-form-5809330330-text-2029902\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form accept-charset=\"UTF-8\" action=\"\" method=\"post\" style=\"padding: 0 20px;\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"login\" \"password\" \"Submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5809295602\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809295602-text-2028699\" \"mod-form-5809295602-text-2028702\" \"mod-form-5809295602-text-2028703\" \"mod-form-submit\" ]."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/?mod-form-5809295602-text-2028699=ZAP&mod-form-5809295602-text-2028702=ZAP&mod-form-5809295602-text-2028703=ZAP&mod-form-5809295602-textarea-2028707&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<form class=\"nform\" data-form-id=\"5809295602\">",
-							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809295602-text-2028699\" \"mod-form-5809295602-text-2028702\" \"mod-form-5809295602-text-2028703\" \"mod-form-submit\" ]."
-						}
-					],
-					"count": "9",
-					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
-					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"mod-form-5809307462-text-2029001\" \"mod-form-5809307462-text-2029002\" \"mod-form-5809307462-text-2029003\" \"mod-form-5809307462-text-2029004\" \"mod-form-5809307462-text-2029005\" \"mod-form-5809307462-text-2029006\" \"mod-form-5809307462-text-2029011\" \"mod-form-5809307462-text-2029012\" \"mod-form-submit\" ].</p>",
-					"reference": "<p>http://projects.webappsec.org/Cross-Site-Request-Forgery</p><p>http://cwe.mitre.org/data/definitions/352.html</p>",
-					"cweid": "352",
-					"wascid": "9",
-					"sourceid": "71"
-				},
 				{
 					"pluginid": "10038",
 					"alertRef": "10038-1",
@@ -117,41 +26,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/c/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "1",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
@@ -176,89 +53,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/mentions-l%C3%A9gales/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "1",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
@@ -281,15 +78,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1694308360\" rel=\"stylesheet\" type=\"text/css\"/>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1694308361\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1694913216\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -305,51 +94,11 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694308360\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694913216\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694308361\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.website-start.de/proxy/apps/static/resource/dependencies/\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1694308361\" rel=\"stylesheet\" type=\"text/css\"/>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<link rel=\"dns-prefetch\" href=\"https://101.sb.mywebsite-editor.com/\"/>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694308361\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -357,7 +106,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "10",
+					"count": "4",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
@@ -409,6 +158,49 @@
 					"sourceid": "1"
 				},
 				{
+					"pluginid": "10054",
+					"alertRef": "10054",
+					"alert": "Cookie with SameSite Attribute None",
+					"name": "Cookie with SameSite Attribute None",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
+					"instances":[ 
+						{
+							"uri": "http://www.lathiere-finances.fr",
+							"method": "GET",
+							"param": "DIY_SB",
+							"attack": "",
+							"evidence": "Set-Cookie: DIY_SB",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/robots.txt",
+							"method": "GET",
+							"param": "DIY_SB",
+							"attack": "",
+							"evidence": "Set-Cookie: DIY_SB",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
+							"method": "GET",
+							"param": "DIY_SB",
+							"attack": "",
+							"evidence": "Set-Cookie: DIY_SB",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
+					"cweid": "1275",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
 					"pluginid": "10017",
 					"alertRef": "10017",
 					"alert": "Cross-Domain JavaScript Source File Inclusion",
@@ -421,57 +213,49 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1690986500424",
+							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1690986500424\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1690986500424",
+							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1690986500424\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1690986500424",
+							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1693390298542",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1690986500424\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1693390298542\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1690986500424",
+							"param": "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542",
 							"attack": "",
-							"evidence": "<script src=\"//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1690986500424\"></script>",
+							"evidence": "<script src=\"//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/s/build/web.bundle.js?1690986500424",
+							"param": "//cdn.website-start.de/s/build/web.bundle.js?1693390298542",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1690986500424\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1693390298542\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694308360",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694913216",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694308360\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694308361",
-							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694308361\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1694913216\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -483,7 +267,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "8",
+					"count": "7",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -508,89 +292,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/c/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "1",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Permissions-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
@@ -621,14 +325,6 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1487167115",
-							"otherinfo": "1487167115, which evaluates to: 2017-02-15 13:58:35"
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
 							"evidence": "1487962726",
 							"otherinfo": "1487962726, which evaluates to: 2017-02-24 18:58:46"
 						},
@@ -653,175 +349,33 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1691605843",
-							"otherinfo": "1691605843, which evaluates to: 2023-08-09 18:30:43"
+							"evidence": "1694819867",
+							"otherinfo": "1694819867, which evaluates to: 2023-09-15 23:17:47"
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1691605844",
-							"otherinfo": "1691605844, which evaluates to: 2023-08-09 18:30:44"
+							"evidence": "1694825220",
+							"otherinfo": "1694825220, which evaluates to: 2023-09-16 00:47:00"
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1694308360",
-							"otherinfo": "1694308360, which evaluates to: 2023-09-10 01:12:40"
+							"evidence": "1694913216",
+							"otherinfo": "1694913216, which evaluates to: 2023-09-17 01:13:36"
 						}
 					],
-					"count": "8",
+					"count": "7",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1486720506, which evaluates to: 2017-02-10 09:55:06</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
 					"sourceid": "1"
-				},
-				{
-					"pluginid": "10021",
-					"alertRef": "10021",
-					"alert": "X-Content-Type-Options Header Missing",
-					"name": "X-Content-Type-Options Header Missing",
-					"riskcode": "1",
-					"confidence": "2",
-					"riskdesc": "Low (Medium)",
-					"desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>",
-					"instances":[ 
-						{
-							"uri": "http://www.lathiere-finances.fr/robots.txt",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/cache_2472199696.png?t=1487962726",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/cache_2472199697.png?t=1487965670",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199697.png?t=1487965670",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199698.png?t=1487962756",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1687092592",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1690075841",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/misc/logo.png?t=1691605844",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/s/style/theming.css?1487167115",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
-							"method": "GET",
-							"param": "x-content-type-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.\nAt \"High\" threshold this scan rule will not alert on client or server error responses."
-						}
-					],
-					"count": "12",
-					"solution": "<p>Ensure that the application/web server sets the Content-Type header appropriately, and that it sets the X-Content-Type-Options header to 'nosniff' for all web pages.</p><p>If possible, ensure that the end user uses a standards-compliant and modern web browser that does not perform MIME-sniffing at all, or that can be directed by the web application/web server to not perform MIME-sniffing.</p>",
-					"otherinfo": "<p>This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.</p><p>At \"High\" threshold this scan rule will not alert on client or server error responses.</p>",
-					"reference": "<p>http://msdn.microsoft.com/en-us/library/ie/gg622941%28v=vs.85%29.aspx</p><p>https://owasp.org/www-community/Security_Headers</p>",
-					"cweid": "693",
-					"wascid": "15",
-					"sourceid": "6"
-				},
-				{
-					"pluginid": "10111",
-					"alertRef": "10111",
-					"alert": "Authentication Request Identified",
-					"name": "Authentication Request Identified",
-					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
-					"desc": "<p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to \"Auto-Detect\" then this rule will change the authentication to match the request identified.</p>",
-					"instances":[ 
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "POST",
-							"param": "do_login",
-							"attack": "",
-							"evidence": "password",
-							"otherinfo": "userParam=do_login\nuserValue=yes\npasswordParam=password\nreferer=http://www.lathiere-finances.fr/protected/"
-						}
-					],
-					"count": "1",
-					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>userParam=do_login</p><p>userValue=yes</p><p>passwordParam=password</p><p>referer=http://www.lathiere-finances.fr/protected/</p>",
-					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</p>",
-					"cweid": "-1",
-					"wascid": "-1",
-					"sourceid": "135"
 				},
 				{
 					"pluginid": "10038",
@@ -840,41 +394,9 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/c/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
-					"count": "5",
+					"count": "1",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://www.w3.org/TR/CSP2/</p><p>https://w3c.github.io/webappsec-csp/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
@@ -899,89 +421,9 @@
 							"attack": "",
 							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/c/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "<a title=\"Ouvrir/fermer la navigation\">Ouvrir/fermer la navigation</a>",
-							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						}
 					],
-					"count": "11",
+					"count": "1",
 					"solution": "<p>This is an informational alert and so no changes are required.</p>",
 					"otherinfo": "<p>Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</p>",
 					"reference": "",
@@ -1008,70 +450,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/c/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/protected/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "no-store",
-							"otherinfo": ""
-						},
-						{
 							"uri": "http://www.lathiere-finances.fr/robots.txt",
 							"method": "GET",
 							"param": "",
@@ -1088,7 +466,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "11",
+					"count": "3",
 					"solution": "<p>The content may be marked as storable by ensuring that the following conditions are satisfied:</p><p>The request method must be understood by the cache and defined as being cacheable (\"GET\", \"HEAD\", and \"POST\" are currently defined as cacheable)</p><p>The response status code must be understood by the cache (one of the 1XX, 2XX, 3XX, 4XX, or 5XX response classes are generally understood)</p><p>The \"no-store\" cache directive must not appear in the request or response header fields</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"private\" response directive must not appear in the response</p><p>For caching by \"shared\" caches such as \"proxy\" caches, the \"Authorization\" header field must not appear in the request, unless the response explicitly allows it (using one of the \"must-revalidate\", \"public\", or \"s-maxage\" Cache-Control response directives)</p><p>In addition to the conditions above, at least one of the following conditions must also be satisfied by the response:</p><p>It must contain an \"Expires\" header field</p><p>It must contain a \"max-age\" response directive</p><p>For \"shared\" caches such as \"proxy\" caches, it must contain a \"s-maxage\" response directive</p><p>It must contain a \"Cache Control Extension\" that allows it to be cached</p><p>It must have a status code that is defined as cacheable by default (200, 203, 204, 206, 300, 301, 404, 405, 410, 414, 501).   </p>",
 					"otherinfo": "",
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
@@ -1283,7 +661,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "abaebf9de200c208cf29794a35d58016",
+							"evidence": "8613bea8db55c21886b06af56f98b610",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1291,7 +669,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "fc3a1cc9f2e5e8e6509dc3eb6d1b5b15",
+							"evidence": "a8fb176804797b657a43478f9eae6867",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1299,7 +677,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "641538f61921a25d91f075aa28802e42",
+							"evidence": "9a7d9c23f0cbe79650f148e516f59e7e",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1307,76 +685,17 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "e53c45e7f4941baa8d65d78f384a37fa",
-							"otherinfo": "\ncookie:DIY_SB"
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr",
-							"method": "GET",
-							"param": "DIY_SB",
-							"attack": "",
-							"evidence": "fc3a1cc9f2e5e8e6509dc3eb6d1b5b15",
+							"evidence": "1bbcde1fe2c070b3d84775df6f403d98",
 							"otherinfo": "\ncookie:DIY_SB"
 						}
 					],
-					"count": "5",
+					"count": "4",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p></p><p>cookie:DIY_SB</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
-				},
-				{
-					"pluginid": "10031",
-					"alertRef": "10031",
-					"alert": "User Controllable HTML Element Attribute (Potential XSS)",
-					"name": "User Controllable HTML Element Attribute (Potential XSS)",
-					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
-					"desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>",
-					"instances":[ 
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "mod-form-submit",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttp://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire\r\n\r\nappears to include user input in: \r\n\r\na(n) [input] tag [value] attribute \r\n\r\nThe user input found was:\r\nmod-form-submit=Envoyer le formulaire\r\n\r\nThe user-controlled value was:\r\nenvoyer le formulaire"
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/contact/?legal=on&mod-form-5801847522-text-1306335=ZAP&mod-form-5801847522-text-1306338=ZAP&mod-form-5801847522-text-1306339=ZAP&mod-form-5801847522-textarea-1306343&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "mod-form-submit",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttp://www.lathiere-finances.fr/contact/?legal=on&mod-form-5801847522-text-1306335=ZAP&mod-form-5801847522-text-1306338=ZAP&mod-form-5801847522-text-1306339=ZAP&mod-form-5801847522-textarea-1306343&mod-form-submit=Envoyer+le+formulaire\r\n\r\nappears to include user input in: \r\n\r\na(n) [input] tag [value] attribute \r\n\r\nThe user input found was:\r\nmod-form-submit=Envoyer le formulaire\r\n\r\nThe user-controlled value was:\r\nenvoyer le formulaire"
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/?mod-form-5809330330-text-2029898=ZAP&mod-form-5809330330-text-2029901=ZAP&mod-form-5809330330-text-2029902=ZAP&mod-form-5809330330-textarea-2029906&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "mod-form-submit",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttp://www.lathiere-finances.fr/nous-rejoindre/?mod-form-5809330330-text-2029898=ZAP&mod-form-5809330330-text-2029901=ZAP&mod-form-5809330330-text-2029902=ZAP&mod-form-5809330330-textarea-2029906&mod-form-submit=Envoyer+le+formulaire\r\n\r\nappears to include user input in: \r\n\r\na(n) [input] tag [value] attribute \r\n\r\nThe user input found was:\r\nmod-form-submit=Envoyer le formulaire\r\n\r\nThe user-controlled value was:\r\nenvoyer le formulaire"
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/?mod-form-5809295602-text-2028699=ZAP&mod-form-5809295602-text-2028702=ZAP&mod-form-5809295602-text-2028703=ZAP&mod-form-5809295602-textarea-2028707&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "mod-form-submit",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": "User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:\r\n\r\nhttp://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/?mod-form-5809295602-text-2028699=ZAP&mod-form-5809295602-text-2028702=ZAP&mod-form-5809295602-text-2028703=ZAP&mod-form-5809295602-textarea-2028707&mod-form-submit=Envoyer+le+formulaire\r\n\r\nappears to include user input in: \r\n\r\na(n) [input] tag [value] attribute \r\n\r\nThe user input found was:\r\nmod-form-submit=Envoyer le formulaire\r\n\r\nThe user-controlled value was:\r\nenvoyer le formulaire"
-						}
-					],
-					"count": "4",
-					"solution": "<p>Validate all input and sanitize output it before writing to any HTML attributes.</p>",
-					"otherinfo": "<p>User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:</p><p></p><p>http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire</p><p></p><p>appears to include user input in: </p><p></p><p>a(n) [input] tag [value] attribute </p><p></p><p>The user input found was:</p><p>mod-form-submit=Envoyer le formulaire</p><p></p><p>The user-controlled value was:</p><p>envoyer le formulaire</p>",
-					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
-					"cweid": "20",
-					"wascid": "20",
-					"sourceid": "166"
+					"sourceid": "8"
 				}
 			]
 		}
