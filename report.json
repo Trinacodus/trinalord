@@ -5,7 +5,7 @@
     "http": {
       "url": "http://www.lathiere-finances.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 10 Sep 2023 01:13:25 GMT",
+      "end_time": "Sun, 17 Sep 2023 01:14:14 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -13,26 +13,26 @@
         "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
-        "Content-Length": "5553",
+        "Content-Length": "5745",
         "Content-Security-Policy-Report-Only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 10 Sep 2023 01:13:23 GMT",
+        "Date": "Sun, 17 Sep 2023 01:14:12 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Keep-Alive": "timeout=15",
         "Pragma": "no-cache",
         "Server": "Apache",
-        "Set-Cookie": "DIY_SB=4fef6fe7cda9caf21454b5257b2b3ac4; path=/;SameSite=Lax",
+        "Set-Cookie": "DIY_SB=e7b1ab9c8545d07bb34455afcf5511aa; path=/;SameSite=None; secure",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-Xss-Protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
       },
-      "scan_id": 41943549,
+      "scan_id": 42216905,
       "score": 0,
-      "start_time": "Sun, 10 Sep 2023 01:13:22 GMT",
+      "start_time": "Sun, 17 Sep 2023 01:14:09 GMT",
       "state": "FINISHED",
       "status_code": 200,
-      "tests_failed": 7,
-      "tests_passed": 5,
+      "tests_failed": 5,
+      "tests_passed": 7,
       "tests_quantity": 12,
       "details": {
         "content-security-policy": {
@@ -73,16 +73,16 @@
                 "max-age": null,
                 "path": "/",
                 "port": null,
-                "samesite": "Lax",
-                "secure": false
+                "samesite": "None",
+                "secure": true
               }
             },
-            "sameSite": null
+            "sameSite": true
           },
-          "pass": false,
-          "result": "cookies-without-secure-flag",
-          "score_description": "Cookies set without using the Secure flag or set over HTTP",
-          "score_modifier": -20
+          "pass": true,
+          "result": "cookies-secure-with-httponly-sessions-and-samesite",
+          "score_description": "All cookies use the Secure flag, session cookies use the HttpOnly flag, and cross-origin restrictions are in place via the SameSite flag",
+          "score_modifier": 5
         },
         "cross-origin-resource-sharing": {
           "expectation": "cross-origin-resource-sharing-not-implemented",
@@ -116,25 +116,26 @@
             "preloaded": false
           },
           "pass": true,
-          "result": "hpkp-not-implemented-no-https",
-          "score_description": "HTTP Public Key Pinning (HPKP) header can't be implemented without HTTPS",
+          "result": "hpkp-not-implemented",
+          "score_description": "HTTP Public Key Pinning (HPKP) header not implemented",
           "score_modifier": 0
         },
         "redirection": {
           "expectation": "redirection-to-https",
           "name": "redirection",
           "output": {
-            "destination": "http://www.lathiere-finances.fr/",
-            "redirects": false,
+            "destination": "https://www.lathiere-finances.fr/",
+            "redirects": true,
             "route": [
-              "http://www.lathiere-finances.fr/"
+              "http://www.lathiere-finances.fr/",
+              "https://www.lathiere-finances.fr/"
             ],
             "status_code": 200
           },
-          "pass": false,
-          "result": "redirection-missing",
-          "score_description": "Does not redirect to an HTTPS site",
-          "score_modifier": -20
+          "pass": true,
+          "result": "redirection-to-https",
+          "score_description": "Initial redirection is to HTTPS on same host, final destination is HTTPS",
+          "score_modifier": 0
         },
         "referrer-policy": {
           "expectation": "referrer-policy-private",
@@ -160,8 +161,8 @@
             "preloaded": false
           },
           "pass": false,
-          "result": "hsts-not-implemented-no-https",
-          "score_description": "HTTP Strict Transport Security (HSTS) header cannot be set for sites not available over HTTPS",
+          "result": "hsts-not-implemented",
+          "score_description": "HTTP Strict Transport Security (HSTS) header not implemented",
           "score_modifier": -20
         },
         "subresource-integrity": {
@@ -169,27 +170,27 @@
           "name": "subresource-integrity",
           "output": {
             "data": {
-              "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1690986500424": {
+              "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1690986500424": {
+              "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "//cdn.website-start.de/app/cdn/min/group/web.js?1690986500424": {
+              "//cdn.website-start.de/app/cdn/min/group/web.js?1693390298542": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1690986500424": {
+              "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542": {
                 "crossorigin": null,
                 "integrity": null
               },
-              "//cdn.website-start.de/s/build/web.bundle.js?1690986500424": {
+              "//cdn.website-start.de/s/build/web.bundle.js?1693390298542": {
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694308403": {
+              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694913252": {
                 "crossorigin": null,
                 "integrity": null
               },
@@ -243,52 +244,1164 @@
     "nmap": null,
     "dependabot": null,
     "codescan": null,
-    "testssl": null,
+    "testssl": [
+      {
+        "id": "service",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "HTTP"
+      },
+      {
+        "id": "pre_128cipher",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No 128 cipher limit bug"
+      },
+      {
+        "id": "SSLv2",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "SSLv3",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_1",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered"
+      },
+      {
+        "id": "TLS1_2",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "TLS1_3",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not offered + downgraded to weaker protocol"
+      },
+      {
+        "id": "ALPN_HTTP2",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "h2"
+      },
+      {
+        "id": "ALPN",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http/1.1"
+      },
+      {
+        "id": "cipherlist_NULL",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_aNULL",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_EXPORT",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_LOW",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-327",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_3DES_IDEA",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-310",
+        "finding": "not offered"
+      },
+      {
+        "id": "cipherlist_OBSOLETED",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "LOW",
+        "cwe": "CWE-310",
+        "finding": "offered"
+      },
+      {
+        "id": "cipherlist_STRONG_NOFS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cipherlist_STRONG_FS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cipher_order-tls1_2",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "cipherorder_TLSv1_2",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "cipher_order",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "server"
+      },
+      {
+        "id": "FS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "FS_ciphers",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384"
+      },
+      {
+        "id": "FS_ECDHE_curves",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "prime256v1 secp384r1 secp521r1"
+      },
+      {
+        "id": "TLS_extensions",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'encrypt-then-mac/#22' 'extended master secret/#23' 'application layer protocol negotiation/#16'"
+      },
+      {
+        "id": "TLS_session_ticket",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "valid for 300 seconds only (<daily)"
+      },
+      {
+        "id": "SSL_sessionID_support",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "yes"
+      },
+      {
+        "id": "sessionresumption_ticket",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not supported"
+      },
+      {
+        "id": "sessionresumption_ID",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not supported"
+      },
+      {
+        "id": "TLS_timestamp",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "random"
+      },
+      {
+        "id": "cert_compression",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "N/A"
+      },
+      {
+        "id": "clientAuth",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "none"
+      },
+      {
+        "id": "cert_numbers",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1"
+      },
+      {
+        "id": "cert_signatureAlgorithm",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "SHA256 with RSA"
+      },
+      {
+        "id": "cert_keySize",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "RSA 2048 bits (exponent is 65537)"
+      },
+      {
+        "id": "cert_keyUsage",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Digital Signature, Key Encipherment"
+      },
+      {
+        "id": "cert_extKeyUsage",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLS Web Client Authentication, TLS Web Server Authentication"
+      },
+      {
+        "id": "cert_serialNumber",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0F7E7687597A1B3CCB12A9189C0A040A"
+      },
+      {
+        "id": "cert_serialNumberLen",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "16"
+      },
+      {
+        "id": "cert_fingerprintSHA1",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "5E8D5E4C25810A1EDDB22E72C35780C5A35D41C8"
+      },
+      {
+        "id": "cert_fingerprintSHA256",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2654B0835123FC33BF0A6B91C2A770D6E1396AEE61125C514797F20A4EB9641A"
+      },
+      {
+        "id": "cert",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIGRjCCBS6gAwIBAgIQD352h1l6GzzLEqkYnAoECjANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMR8wHQYDVQQDExZHZW9UcnVzdCBUTFMgUlNBIENBIEcxMB4XDTIzMDkxMDAwMDAwMFoXDTI0MDkwOTIzNTk1OVowIzEhMB8GA1UEAxMYd3d3LmxhdGhpZXJlLWZpbmFuY2VzLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzLgFUAAhJVff3DfhoC+v1bXz97vJPqGOqScIVmP0UTuPgh3+sG/CI2eyeZyH4f9Bq+8MwvLY5JYBXo39BU2LTcyHnAKBTw56LQL3bk7es9Tq75LBUc7dixaDt460WWKMnh4pmPjCsTIrKA5Jyiiwsml3Yz8AF39XRqZqYmAJc8BtXGbazVY53J6bUzGVmSFSgEdBDVeyT13hn+bNCSeWftW5KxSrNn/Iwe6MlSMbdLaFlZk2hLO47PLt0b8mYzLtKt11x1CWZdTKiWgNc1RFcPJmQq5ACATA/nzGX0g2t/wx3VQQ529iq+qQxlw+aM/3WMAG5YfETpJ9G+43qSaMdQIDAQABo4IDNzCCAzMwHwYDVR0jBBgwFoAUlE/UXYvkpOKmgP792PkA76O+AlcwHQYDVR0OBBYEFFye9TfetBlrkftN6dpkuH+83jX/MDkGA1UdEQQyMDCCGHd3dy5sYXRoaWVyZS1maW5hbmNlcy5mcoIUbGF0aGllcmUtZmluYW5jZXMuZnIwPgYDVR0gBDcwNTAzBgZngQwBAgEwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20vQ1BTMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cDovL2NkcC5nZW90cnVzdC5jb20vR2VvVHJ1c3RUTFNSU0FDQUcxLmNybDB2BggrBgEFBQcBAQRqMGgwJgYIKwYBBQUHMAGGGmh0dHA6Ly9zdGF0dXMuZ2VvdHJ1c3QuY29tMD4GCCsGAQUFBzAChjJodHRwOi8vY2FjZXJ0cy5nZW90cnVzdC5jb20vR2VvVHJ1c3RUTFNSU0FDQUcxLmNydDAMBgNVHRMBAf8EAjAAMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdgB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAYp/SzaQAAAEAwBHMEUCIChbxXsRV/H/gMJuWOH/MtPjwgYcYtoeKDp0tiq69KeJAiEA3xVDekEoc5Y682/oAOgFHGKLwxdZM9u2Vztffh1QZz8AdwBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAYp/SzZdAAAEAwBIMEYCIQC9wmJnrYToIy6VssI4pC726TWI4keH1BMtfLtpQnJhHQIhAJLsmbAo743ULvItnfPaZxR4ADdJvTFAyFRDdYKbSMehAHUA2ra/az+1tiKfm8K7XGvocJFxbLtRhIU0vaQ9MEjX+6sAAAGKf0s2cwAABAMARjBEAiBDpZZuAhhJo9Z8eUXPbF6vlrodRsLIQcIQkeMs07tjfQIgHw+4nfrFnc2sWcJZtpydQcUE5+popu0eMvlXPAqvu9cwDQYJKoZIhvcNAQELBQADggEBACOuGACIkQjlSICV69Cva4G3vlMSzRLFnQCLMa8kZfeCvCOyesLqB+QOqCCx0QG93/hqUXcta/1rSfbFyZinmInADlBgNMn85iMZWt+txT2vSE8q86mfO6UlUTJjQBA6S1pPrNguqIcfu6arTnYPti7Y67iN3arPT7suu3mKMSGjKWgfb5k24XiDPzYwmempEbTvYHLfEfnFMlAS/6IzE4iTo1izthduRiYzoWIBXIewA3Kveqc9CtngdLnw8RzZea0FcrG8NHZdzDaia0yFSStaqhNnD+HZ+r0ve3cuwpTQ/Lg6VDe04xSUGd1cJJjMh+WZkmKJinU+oCO9HN9Qt08=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "cert_commonName",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "www.lathiere-finances.fr"
+      },
+      {
+        "id": "cert_commonName_wo_SNI",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "request w/o SNI didn't succeed"
+      },
+      {
+        "id": "cert_subjectAltName",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "www.lathiere-finances.fr lathiere-finances.fr"
+      },
+      {
+        "id": "cert_trust",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "Ok via SAN and CN (SNI mandatory)"
+      },
+      {
+        "id": "cert_chain_of_trust",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "passed."
+      },
+      {
+        "id": "cert_certificatePolicies_EV",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_expirationStatus",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "358 >= 60 days"
+      },
+      {
+        "id": "cert_notBefore",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2023-09-10 00:00"
+      },
+      {
+        "id": "cert_notAfter",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2024-09-09 23:59"
+      },
+      {
+        "id": "cert_extlifeSpan",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "certificate has no extended life time according to browser forum"
+      },
+      {
+        "id": "cert_eTLS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "not present"
+      },
+      {
+        "id": "cert_crlDistributionPoints",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://cdp.geotrust.com/GeoTrustTLSRSACAG1.crl"
+      },
+      {
+        "id": "cert_ocspURL",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "http://status.geotrust.com"
+      },
+      {
+        "id": "OCSP_stapling",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "offered"
+      },
+      {
+        "id": "cert_ocspRevoked",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "not revoked"
+      },
+      {
+        "id": "cert_mustStapleExtension",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "--"
+      },
+      {
+        "id": "DNS_CAArecord",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "--"
+      },
+      {
+        "id": "certificate_transparency",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "yes (certificate extension)"
+      },
+      {
+        "id": "certs_countServer",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2"
+      },
+      {
+        "id": "certs_list_ordering_problem",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no"
+      },
+      {
+        "id": "cert_caIssuers",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "GeoTrust TLS RSA CA G1 (DigiCert Inc from US)"
+      },
+      {
+        "id": "intermediate_cert <#1>",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "-----BEGIN CERTIFICATE-----\nMIIEjTCCA3WgAwIBAgIQDQd4KhM/xvmlcpbhMf/ReTANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xNzExMDIxMjIzMzdaFw0yNzExMDIxMjIzMzdaMGAxCzAJBgNVBAYTAlVTMRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxGTAXBgNVBAsTEHd3dy5kaWdpY2VydC5jb20xHzAdBgNVBAMTFkdlb1RydXN0IFRMUyBSU0EgQ0EgRzEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+F+jsvikKy/65LWEx/TMkCDIuWegh1Ngwvm4QyISgP7oU5d79eoySG3vOhC3w/3jEMuipoH1fBtp7m0tTpsYbAhch4XA7rfuD6whUgajeErLVxoiWMPkC/DnUvbgi74BJmdBiuGHQSd7LwsuXpTEGG9fYXcbTVN5SATYqDfbexbYxTMwVJWoVb6lrBEgM3gBBqiiAiy800xu1Nq07JdCIQkBsNpFtZbIZhsDSfzlGWP4wEmBQ3O67c+ZXkFr2DcrXBEtHam80Gp2SNhou2U5U7UesDL/xgLK6/0d76TnEVMSUVJkZ8VeZr+IUIlvoLrtjLbqugb0T3OYXW+CQU0kBAgMBAAGjggFAMIIBPDAdBgNVHQ4EFgQUlE/UXYvkpOKmgP792PkA76O+AlcwHwYDVR0jBBgwFoAUTiJUIBiV5uNu5g/6+rkS7QYXjzkwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjASBgNVHRMBAf8ECDAGAQH/AgEAMDQGCCsGAQUFBwEBBCgwJjAkBggrBgEFBQcwAYYYaHR0cDovL29jc3AuZGlnaWNlcnQuY29tMEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHA6Ly9jcmwzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbFJvb3RHMi5jcmwwPQYDVR0gBDYwNDAyBgRVHSAAMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwDQYJKoZIhvcNAQELBQADggEBAIIcBDqC6cWpyGUSXAjjAcYwsK4iiGF7KweG97i1RJz1kwZhRoo6orU1JtBYnjzBc4+/sXmnHJk3mlPyL1xuIAt9sMeC7+vreRIF5wFBC0MCN5sbHwhNN1JzKbifNeP5ozpZdQFmkCo+neBiKR6HqIA+LMTMCMMuv2khGGuPHmtDze4GmEGZtYLyF8EQpa5YjPuV6k2Cr/N3XxFpT3hRpt/3usU/Zb9wfKPtWpoznZ4/44c1p9rzFcZYrWkj3A+7TNBJE0GmP2fhXhP1D/XVfIW/h0yCJGEiV9Glm/uGOa3DXHlmbAcxSyCRraG+ZBkA7h4SeM6Y8l/7MBRpPCz6l8Y=\n-----END CERTIFICATE-----"
+      },
+      {
+        "id": "intermediate_cert_fingerprintSHA256 <#1>",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "C06E307F7CFC1D32FA72A4C033C87B90019AF216F0775D64978A2ECA6C8A230E"
+      },
+      {
+        "id": "intermediate_cert_notBefore <#1>",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "2017-11-02 12:23"
+      },
+      {
+        "id": "intermediate_cert_notAfter <#1>",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "2027-11-02 12:23"
+      },
+      {
+        "id": "intermediate_cert_expiration <#1>",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "ok > 40 days"
+      },
+      {
+        "id": "intermediate_cert_chain <#1>",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "GeoTrust TLS RSA CA G1 <-- DigiCert Global Root G2"
+      },
+      {
+        "id": "intermediate_cert_badOCSP",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "intermediate certificate(s) is/are ok"
+      },
+      {
+        "id": "HTTP_status_code",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "200 OK ('/')"
+      },
+      {
+        "id": "HTTP_clock_skew",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0 seconds from localtime"
+      },
+      {
+        "id": "HTTP_headerTime",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1694913318"
+      },
+      {
+        "id": "HSTS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "LOW",
+        "finding": "not offered"
+      },
+      {
+        "id": "HPKP",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No support for HTTP Public Key Pinning"
+      },
+      {
+        "id": "banner_server",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Apache"
+      },
+      {
+        "id": "banner_application",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No application banner found"
+      },
+      {
+        "id": "cookie_count",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1 at '/'"
+      },
+      {
+        "id": "cookie_secure",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "All (1) at '/' marked as secure"
+      },
+      {
+        "id": "cookie_httponly",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "1/1 at '/' marked as HttpOnly"
+      },
+      {
+        "id": "X-Content-Type-Options",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "nosniff"
+      },
+      {
+        "id": "Content-Security-Policy-Report-Only",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit"
+      },
+      {
+        "id": "X-XSS-Protection",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
+      },
+      {
+        "id": "Cache-Control",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0"
+      },
+      {
+        "id": "Pragma",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "no-cache"
+      },
+      {
+        "id": "banner_reverseproxy",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "cwe": "CWE-200",
+        "finding": "--"
+      },
+      {
+        "id": "heartbleed",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0160",
+        "cwe": "CWE-119",
+        "finding": "not vulnerable, no heartbeat extension"
+      },
+      {
+        "id": "CCS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-0224",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ticketbleed",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-9244",
+        "cwe": "CWE-200",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "ROBOT",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+        "cwe": "CWE-203",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "secure_renego",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cwe": "CWE-310",
+        "finding": "supported"
+      },
+      {
+        "id": "secure_client_renego",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-1473",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "CRIME_TLS",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2012-4929",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "BREACH",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "MEDIUM",
+        "cve": "CVE-2013-3587",
+        "cwe": "CWE-310",
+        "finding": "potentially VULNERABLE, gzip deflate HTTP compression detected  - only supplied '/' tested"
+      },
+      {
+        "id": "POODLE_SSL",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-3566",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no SSLv3"
+      },
+      {
+        "id": "fallback_SCSV",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "no protocol below TLS 1.2 offered"
+      },
+      {
+        "id": "SWEET32",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-2183 CVE-2016-6329",
+        "cwe": "CWE-327",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "FREAK",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-0204",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "DROWN",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable on this host and port"
+      },
+      {
+        "id": "DROWN_hint",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "cve": "CVE-2016-0800 CVE-2016-0703",
+        "cwe": "CWE-310",
+        "finding": "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=2654B0835123FC33BF0A6B91C2A770D6E1396AEE61125C514797F20A4EB9641A"
+      },
+      {
+        "id": "LOGJAM",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable, no DH EXPORT ciphers,"
+      },
+      {
+        "id": "LOGJAM-common_primes",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2015-4000",
+        "cwe": "CWE-310",
+        "finding": "no DH key with <= TLS 1.2"
+      },
+      {
+        "id": "BEAST",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2011-3389",
+        "cwe": "CWE-20",
+        "finding": "not vulnerable, no SSL3 or TLS1"
+      },
+      {
+        "id": "LUCKY13",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "LOW",
+        "cve": "CVE-2013-0169",
+        "cwe": "CWE-310",
+        "finding": "potentially vulnerable, uses TLS CBC ciphers"
+      },
+      {
+        "id": "winshock",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2014-6321",
+        "cwe": "CWE-94",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "RC4",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "cve": "CVE-2013-2566 CVE-2015-2808",
+        "cwe": "CWE-310",
+        "finding": "not vulnerable"
+      },
+      {
+        "id": "clientsimulation-android_60",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_70",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_81",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_90",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_X",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_11",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-android_12",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-chrome_79_win10",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-chrome_101_win10",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-firefox_66_win81",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-firefox_100_win10",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_6_xp",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_8_win7",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_8_xp",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-ie_11_win7",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_11_win81",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_11_winphone81",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+      },
+      {
+        "id": "clientsimulation-ie_11_win10",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_15_win10",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-edge_101_win10_21h2",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-safari_121_ios_122",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-safari_130_osx_10146",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-safari_154_osx_1231",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-java_7u25",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "No connection"
+      },
+      {
+        "id": "clientsimulation-java_8u161",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-java1102",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-java1703",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-go_1178",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-libressl_283",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_102e",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_110l",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_111d",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-openssl_303",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-apple_mail_16_0",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "clientsimulation-thunderbird_91_9",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+      },
+      {
+        "id": "rating_spec",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+      },
+      {
+        "id": "rating_doc",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+      },
+      {
+        "id": "protocol_support_score",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "100"
+      },
+      {
+        "id": "protocol_support_score_weighted",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "30"
+      },
+      {
+        "id": "key_exchange_score",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "90"
+      },
+      {
+        "id": "key_exchange_score_weighted",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "27"
+      },
+      {
+        "id": "cipher_strength_score",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "60"
+      },
+      {
+        "id": "cipher_strength_score_weighted",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "24"
+      },
+      {
+        "id": "final_score",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "81"
+      },
+      {
+        "id": "overall_grade",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "OK",
+        "finding": "A"
+      },
+      {
+        "id": "grade_cap_reason_1",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "Grade capped to A. HSTS is not offered"
+      },
+      {
+        "id": "scanTime",
+        "ip": "www.lathiere-finances.fr/217.160.0.141",
+        "port": "443",
+        "severity": "INFO",
+        "finding": "116"
+      }
+    ],
     "thirdparties": {
       "trackers": [
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/templates/2134/style.css?1690986500424"
+          "url": "https://cdn.website-start.de/templates/2134/style.css?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/web.css?1690986500424"
+          "url": "https://cdn.website-start.de/app/cdn/min/group/web.css?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1690986500424"
+          "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/s/build/web.bundle.js?1690986500424"
+          "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1690986500424"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1694913011"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1690986500424"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694913011"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1690986500424"
+          "url": "https://cdn.website-start.de/app/cdn/min/group/web.js?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1694308172"
+          "url": "https://cdn.website-start.de/s/build/web.bundle.js?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1690986500424"
+          "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1694308172"
-        },
-        {
-          "type": "unknown",
-          "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1690986500424"
+          "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542"
         },
         {
           "type": "unknown",
@@ -296,51 +1409,53 @@
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/sections/_res/public/common.css"
+          "url": "https://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/sections/highlights-1/public/style.css"
+          "url": "https://cdn.website-start.de/sections/_res/public/common.css"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/s/img/cc/printer.gif"
+          "url": "https://cdn.website-start.de/sections/highlights-1/public/style.css"
         },
         {
           "type": "unknown",
-          "url": "http://cdn.website-start.de/templates/2134/print.css?1690986500424"
+          "url": "https://cdn.website-start.de/s/img/cc/printer.gif"
+        },
+        {
+          "type": "unknown",
+          "url": "https://cdn.website-start.de/templates/2134/print.css?1693390298542"
         }
       ],
       "cookies": [
         {
           "name": "DIY_SB",
-          "value": "7d27034475dea4d8530589533d45f02a",
+          "value": "ece438d2d06e9e2e4745dfb22443220f",
           "domain": "www.lathiere-finances.fr",
           "path": "/",
           "expires": -1,
           "size": 38,
           "httpOnly": false,
-          "secure": false,
+          "secure": true,
           "session": true,
-          "sameSite": "Lax",
+          "sameSite": "None",
           "sameParty": false,
-          "sourceScheme": "NonSecure",
-          "sourcePort": 80
+          "sourceScheme": "Secure",
+          "sourcePort": 443
         }
       ],
       "headers": {
         "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-        "connection": "keep-alive",
         "content-encoding": "gzip",
-        "content-length": "5552",
+        "content-length": "5746",
         "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 10 Sep 2023 01:09:32 GMT",
+        "date": "Sun, 17 Sep 2023 01:10:11 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-        "keep-alive": "timeout=15",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "DIY_SB=7d27034475dea4d8530589533d45f02a; path=/;SameSite=Lax",
+        "set-cookie": "DIY_SB=ece438d2d06e9e2e4745dfb22443220f; path=/;SameSite=None; secure",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
         "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
@@ -519,6 +1634,9 @@
     "wappalyzer": {
       "urls": {
         "http://www.lathiere-finances.fr/": {
+          "status": 301
+        },
+        "https://www.lathiere-finances.fr/": {
           "status": 200
         }
       },
@@ -730,7 +1848,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.13.0",
-      "@generated": "Sun, 10 Sep 2023 01:12:51",
+      "@generated": "Sun, 17 Sep 2023 01:13:40",
       "site": [
         {
           "@name": "http://www.lathiere-finances.fr",
@@ -738,13 +1856,6 @@
           "@port": "80",
           "@ssl": "false",
           "alerts": [
-            {
-              "name": "Absence of Anti-CSRF Tokens",
-              "riskcode": "2",
-              "confidence": "1",
-              "riskdesc": "Medium (Low)",
-              "desc": "<p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>"
-            },
             {
               "name": "Content Security Policy (CSP) Header Not Set",
               "riskcode": "2",
@@ -774,6 +1885,13 @@
               "desc": "<p>A cookie has been set without the HttpOnly flag, which means that the cookie can be accessed by JavaScript. If a malicious script can be run on this page then the cookie will be accessible and can be transmitted to another site. If this is a session cookie then session hijacking may be possible.</p>"
             },
             {
+              "name": "Cookie with SameSite Attribute None",
+              "riskcode": "1",
+              "confidence": "2",
+              "riskdesc": "Low (Medium)",
+              "desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>"
+            },
+            {
               "name": "Cross-Domain JavaScript Source File Inclusion",
               "riskcode": "1",
               "confidence": "2",
@@ -793,20 +1911,6 @@
               "confidence": "1",
               "riskdesc": "Low (Low)",
               "desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>"
-            },
-            {
-              "name": "X-Content-Type-Options Header Missing",
-              "riskcode": "1",
-              "confidence": "2",
-              "riskdesc": "Low (Medium)",
-              "desc": "<p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>"
-            },
-            {
-              "name": "Authentication Request Identified",
-              "riskcode": "0",
-              "confidence": "1",
-              "riskdesc": "Informational (Low)",
-              "desc": "<p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to \"Auto-Detect\" then this rule will change the authentication to match the request identified.</p>"
             },
             {
               "name": "Content Security Policy (CSP) Report-Only Header Found",
@@ -863,13 +1967,6 @@
               "confidence": "2",
               "riskdesc": "Informational (Medium)",
               "desc": "<p>The given response has been identified as containing a session management token. The 'Other Info' field contains a set of header tokens that can be used in the Header Based Session Management Method. If the request is in a context which has a Session Management Method set to \"Auto-Detect\" then this rule will change the session management to use the tokens identified.</p>"
-            },
-            {
-              "name": "User Controllable HTML Element Attribute (Potential XSS)",
-              "riskcode": "0",
-              "confidence": "1",
-              "riskdesc": "Informational (Low)",
-              "desc": "<p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>"
             }
           ]
         }
@@ -879,9 +1976,11 @@
     "lhr": [
       {
         "requestedUrl": "http://www.lathiere-finances.fr/",
-        "finalUrl": "http://www.lathiere-finances.fr/",
-        "fetchTime": "2023-09-10T01:13:09.330Z",
-        "runWarnings": [],
+        "finalUrl": "https://www.lathiere-finances.fr/",
+        "fetchTime": "2023-09-17T01:13:57.040Z",
+        "runWarnings": [
+          "The page may not be loading as expected because your test URL (http://www.lathiere-finances.fr/) was redirected to https://www.lathiere-finances.fr/. Try testing the second URL directly."
+        ],
         "categories": {
           "performance": {
             "title": "Performance",
@@ -891,7 +1990,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.9723695755004883
+            "score": 0.9722036361694336
           },
           "accessibility": {
             "title": "Accessibility",
@@ -943,53 +2042,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3045,
+            "numericValue": 3822,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 2817,
-                  "firstMeaningfulPaint": 2841,
-                  "largestContentfulPaint": 2920,
-                  "interactive": 3045,
-                  "speedIndex": 4859,
-                  "totalBlockingTime": 16,
-                  "maxPotentialFID": 81,
+                  "firstContentfulPaint": 3592,
+                  "firstMeaningfulPaint": 3609,
+                  "largestContentfulPaint": 3609,
+                  "interactive": 3822,
+                  "speedIndex": 6346,
+                  "totalBlockingTime": 10,
+                  "maxPotentialFID": 69,
                   "cumulativeLayoutShift": 0.12409779018825956,
                   "cumulativeLayoutShiftMainFrame": 0.12409779018825956,
                   "totalCumulativeLayoutShift": 0.12409779018825956,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 293797736,
+                  "observedTimeOriginTs": 426162748,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 293797736,
-                  "observedFirstPaint": 1718,
-                  "observedFirstPaintTs": 295515399,
-                  "observedFirstContentfulPaint": 1718,
-                  "observedFirstContentfulPaintTs": 295515399,
-                  "observedFirstContentfulPaintAllFrames": 1718,
-                  "observedFirstContentfulPaintAllFramesTs": 295515399,
-                  "observedFirstMeaningfulPaint": 1718,
-                  "observedFirstMeaningfulPaintTs": 295515399,
-                  "observedLargestContentfulPaint": 1718,
-                  "observedLargestContentfulPaintTs": 295515399,
-                  "observedLargestContentfulPaintAllFrames": 1718,
-                  "observedLargestContentfulPaintAllFramesTs": 295515399,
-                  "observedTraceEnd": 5026,
-                  "observedTraceEndTs": 298823297,
-                  "observedLoad": 2702,
-                  "observedLoadTs": 296499867,
-                  "observedDomContentLoaded": 1707,
-                  "observedDomContentLoadedTs": 295504658,
+                  "observedNavigationStartTs": 426162748,
+                  "observedFirstPaint": 2357,
+                  "observedFirstPaintTs": 428519965,
+                  "observedFirstContentfulPaint": 2357,
+                  "observedFirstContentfulPaintTs": 428519965,
+                  "observedFirstContentfulPaintAllFrames": 2357,
+                  "observedFirstContentfulPaintAllFramesTs": 428519965,
+                  "observedFirstMeaningfulPaint": 2357,
+                  "observedFirstMeaningfulPaintTs": 428519965,
+                  "observedLargestContentfulPaint": 2357,
+                  "observedLargestContentfulPaintTs": 428519965,
+                  "observedLargestContentfulPaintAllFrames": 2357,
+                  "observedLargestContentfulPaintAllFramesTs": 428519965,
+                  "observedTraceEnd": 5433,
+                  "observedTraceEndTs": 431595347,
+                  "observedLoad": 3124,
+                  "observedLoadTs": 429286418,
+                  "observedDomContentLoaded": 2343,
+                  "observedDomContentLoadedTs": 428505890,
                   "observedCumulativeLayoutShift": 0.12409779018825956,
                   "observedCumulativeLayoutShiftMainFrame": 0.12409779018825956,
                   "observedTotalCumulativeLayoutShift": 0.12409779018825956,
-                  "observedFirstVisualChange": 1723,
-                  "observedFirstVisualChangeTs": 295520736,
-                  "observedLastVisualChange": 2723,
-                  "observedLastVisualChangeTs": 296520736,
-                  "observedSpeedIndex": 2119,
-                  "observedSpeedIndexTs": 295917163
+                  "observedFirstVisualChange": 2370,
+                  "observedFirstVisualChangeTs": 428532748,
+                  "observedLastVisualChange": 3153,
+                  "observedLastVisualChangeTs": 429315748,
+                  "observedSpeedIndex": 2841,
+                  "observedSpeedIndexTs": 429003506
                 },
                 {
                   "lcpInvalidated": false
@@ -1007,23 +2106,23 @@
               "type": "debugdata",
               "items": [
                 {
-                  "numRequests": 23,
+                  "numRequests": 24,
                   "numScripts": 7,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 1002,
+                  "numTasks": 453,
                   "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 2,
+                  "numTasksOver25ms": 3,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 160.347,
-                  "throughput": 5625942.885629288,
-                  "maxRtt": 162.658,
-                  "maxServerLatency": 23.405,
-                  "totalByteWeight": 1193439,
-                  "totalTaskTime": 241.27699999999876,
-                  "mainDocumentTransferSize": 6342
+                  "rtt": 142.603,
+                  "throughput": 6562203.82525351,
+                  "maxRtt": 146.796,
+                  "maxServerLatency": 99.10499999999996,
+                  "totalByteWeight": 1194309,
+                  "totalTaskTime": 212.90599999999955,
+                  "mainDocumentTransferSize": 6293
                 }
               ]
             }
@@ -1046,15 +2145,15 @@
         "width": 1920,
         "height": 1080,
         "url": "http://www.lathiere-finances.fr",
-        "size": 1220.37,
-        "nodes": 279,
+        "size": 1222.184,
+        "nodes": 302,
         "requests": 24,
         "grade": "B",
-        "score": 76,
-        "ges": 1.48,
-        "water": 2.22,
+        "score": 75,
+        "ges": 1.5,
+        "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2023-09-10 01:10:50.665921",
+        "date": "2023-09-17 01:11:29.297181",
         "page_type": "business.business"
       }
     ],
@@ -1062,11 +2161,14 @@
     "summary": {
       "404": "A+",
       "httpGrade": "F",
+      "testsslExpireSoon": false,
+      "testsslExpireDate": "2024-09-09T23:59:00.000Z",
+      "testsslGrade": "A",
       "cookiesGrade": "B",
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 16,
-      "lighthouse_performance": 0.9723695755004883,
+      "lighthouse_performance": 0.9722036361694336,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.81,
       "lighthouse_accessibilityGrade": "B",
