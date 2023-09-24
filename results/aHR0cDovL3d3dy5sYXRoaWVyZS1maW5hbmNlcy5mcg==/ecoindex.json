@@ -3,7 +3,7 @@
         "width": 1920,
         "height": 1080,
         "url": "http://www.lathiere-finances.fr",
-        "size": 1222.184,
+        "size": 1222.185,
         "nodes": 302,
         "requests": 24,
         "grade": "B",
@@ -11,7 +11,7 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2023-09-17 01:11:29.297181",
+        "date": "2023-09-24 01:11:35.319483",
         "page_type": "business.business"
     }
 ]
