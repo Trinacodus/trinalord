@@ -18,11 +18,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1698541880"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1699146744"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1698541880"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1699146744"
     },
     {
       "type": "unknown",
@@ -68,7 +68,7 @@
   "cookies": [
     {
       "name": "DIY_SB",
-      "value": "f19ece12c19b8da3400bfc34f9dafde4",
+      "value": "e5b35089f62d22cbf5c36a68050185f9",
       "domain": "www.lathiere-finances.fr",
       "path": "/",
       "expires": -1,
@@ -85,14 +85,14 @@
   "headers": {
     "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
     "content-encoding": "gzip",
-    "content-length": "5746",
+    "content-length": "5747",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 29 Oct 2023 01:11:19 GMT",
+    "date": "Sun, 05 Nov 2023 01:12:24 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=f19ece12c19b8da3400bfc34f9dafde4; path=/;SameSite=None; secure",
+    "set-cookie": "DIY_SB=e5b35089f62d22cbf5c36a68050185f9; path=/;SameSite=None; secure",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
