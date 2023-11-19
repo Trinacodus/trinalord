@@ -199,7 +199,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -346,7 +346,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "302 >= 60 days"
+              "finding"      : "295 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,14 +507,14 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1699751807"
+              "finding"      : "1700356712"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "59"
           }
 ]
