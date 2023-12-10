@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 3 Dec 2023 01:17:29",
+	"@generated": "Sun, 10 Dec 2023 01:18:01",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -78,7 +78,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1701566247\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1702171078\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -94,7 +94,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1701566247\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1702171078\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -155,7 +155,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10054",
@@ -198,7 +198,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10017",
@@ -253,9 +253,9 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1701566247",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1702171078",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1701566247\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1702171078\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -365,8 +365,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1701566247",
-							"otherinfo": "1701566247, which evaluates to: 2023-12-03 01:17:27"
+							"evidence": "1702171078",
+							"otherinfo": "1702171078, which evaluates to: 2023-12-10 01:17:58"
 						}
 					],
 					"count": "7",
@@ -472,7 +472,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -515,7 +515,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -558,7 +558,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -601,7 +601,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "90005",
@@ -644,7 +644,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "6"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10112",
@@ -661,7 +661,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "61a1fdbaa045dbdbf47290c46d12d042",
+							"evidence": "0d1441281d206aab1b5a21dd85afbd28",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -669,7 +669,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "9bbac4ce46898604f6d2492306ba5406",
+							"evidence": "904c175761d6d327cb84bc07011ddc2a",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -677,7 +677,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "86529f58e67ad6e88792c371833cee53",
+							"evidence": "9d402bbdec35e40ec27362104bd1fe5e",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -685,7 +685,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "3fdbed1b199fe7c206734096a813d4af",
+							"evidence": "32f8da7ef507027f1cc12e7038ce0e6e",
 							"otherinfo": "\ncookie:DIY_SB"
 						}
 					],
@@ -695,7 +695,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "6"
+					"sourceid": "1"
 				}
 			]
 		}
