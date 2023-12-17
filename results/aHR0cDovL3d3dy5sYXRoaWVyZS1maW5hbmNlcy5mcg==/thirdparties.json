@@ -2,43 +2,43 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/templates/2134/style.css?1693390298542"
+      "url": "https://cdn.website-start.de/templates/2134/style.css?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/group/web.css?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/web.css?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1702170929"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1702775742"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1702170929"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1702775742"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/group/web.js?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/web.js?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/s/build/web.bundle.js?1693390298542"
+      "url": "https://cdn.website-start.de/s/build/web.bundle.js?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1700651992739"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1700651992739"
     },
     {
       "type": "unknown",
@@ -46,7 +46,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1700651992739"
     },
     {
       "type": "unknown",
@@ -62,13 +62,13 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.website-start.de/templates/2134/print.css?1693390298542"
+      "url": "https://cdn.website-start.de/templates/2134/print.css?1700651992739"
     }
   ],
   "cookies": [
     {
       "name": "DIY_SB",
-      "value": "76e29abd825348e896096ad34982fb45",
+      "value": "353aab15ebde1df0f20ef2c82f402a61",
       "domain": "www.lathiere-finances.fr",
       "path": "/",
       "expires": -1,
@@ -88,11 +88,11 @@
     "content-length": "5748",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 10 Dec 2023 01:15:29 GMT",
+    "date": "Sun, 17 Dec 2023 01:15:41 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=76e29abd825348e896096ad34982fb45; path=/;SameSite=None; secure",
+    "set-cookie": "DIY_SB=353aab15ebde1df0f20ef2c82f402a61; path=/;SameSite=None; secure",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"

@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 10 Dec 2023 01:18:01",
+	"@generated": "Sun, 17 Dec 2023 01:18:29",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -78,7 +78,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1702171078\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1702775907\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -94,7 +94,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1702171078\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1702775907\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -155,7 +155,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10054",
@@ -198,7 +198,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10017",
@@ -213,49 +213,49 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542",
+							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1700651992739",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1693390298542\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1700651992739\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542",
+							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1700651992739",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1693390298542\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1700651992739\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1693390298542",
+							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1700651992739",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1693390298542\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1700651992739\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542",
+							"param": "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1700651992739",
 							"attack": "",
-							"evidence": "<script src=\"//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1693390298542\"></script>",
+							"evidence": "<script src=\"//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1700651992739\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "//cdn.website-start.de/s/build/web.bundle.js?1693390298542",
+							"param": "//cdn.website-start.de/s/build/web.bundle.js?1700651992739",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1693390298542\" crossorigin=\"anonymous\"></script>",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1700651992739\" crossorigin=\"anonymous\"></script>",
 							"otherinfo": ""
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1702171078",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1702775907",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1702171078\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1702775907\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -357,16 +357,16 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1694825220",
-							"otherinfo": "1694825220, which evaluates to: 2023-09-16 00:47:00"
+							"evidence": "1702606178",
+							"otherinfo": "1702606178, which evaluates to: 2023-12-15 02:09:38"
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1702171078",
-							"otherinfo": "1702171078, which evaluates to: 2023-12-10 01:17:58"
+							"evidence": "1702775907",
+							"otherinfo": "1702775907, which evaluates to: 2023-12-17 01:18:27"
 						}
 					],
 					"count": "7",
@@ -472,7 +472,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -515,7 +515,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -558,7 +558,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -601,7 +601,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "90005",
@@ -644,7 +644,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "7"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10112",
@@ -661,7 +661,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "0d1441281d206aab1b5a21dd85afbd28",
+							"evidence": "8bd5d774bffba177f9aa2a8dcf2313f3",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -669,7 +669,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "904c175761d6d327cb84bc07011ddc2a",
+							"evidence": "b569af756d559403e1510c78772cb1be",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -677,7 +677,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "9d402bbdec35e40ec27362104bd1fe5e",
+							"evidence": "ce20d0f3149a409f878dcfb4fb99e138",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -685,7 +685,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "32f8da7ef507027f1cc12e7038ce0e6e",
+							"evidence": "eba244a3bb83278081a9902a5ac7faf5",
 							"otherinfo": "\ncookie:DIY_SB"
 						}
 					],
@@ -695,7 +695,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "8"
 				}
 			]
 		}
