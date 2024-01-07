@@ -178,7 +178,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'next protocol/#13172' 'encrypt-then-mac/#22' 'extended master secret/#23' 'application layer protocol negotiation/#16'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'session ticket/#35' 'status request/#5' 'next protocol/#13172' 'encrypt-then-mac/#22' 'extended master secret/#23' 'application layer protocol negotiation/#16'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -199,7 +199,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
@@ -346,7 +346,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "253 >= 60 days"
+              "finding"      : "246 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -394,8 +394,15 @@
               "id"           : "OCSP_stapling",
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "not offered"
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cert_ocspRevoked",
+              "ip"           : "www.lathiere-finances.fr/217.160.0.141",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not revoked"
           }
 ,         {
               "id"           : "cert_mustStapleExtension",
@@ -500,14 +507,14 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.lathiere-finances.fr/217.160.0.141",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1703985509"
+              "finding"      : "1704590564"
           }
 ,         {
               "id"           : "HSTS",
