@@ -5,7 +5,7 @@
     "http": {
       "url": "http://www.lathiere-finances.fr",
       "algorithm_version": 2,
-      "end_time": "Sun, 14 Jan 2024 01:20:34 GMT",
+      "end_time": "Sun, 21 Jan 2024 01:20:48 GMT",
       "grade": "F",
       "hidden": false,
       "likelihood_indicator": "MEDIUM",
@@ -13,22 +13,22 @@
         "Cache-Control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
         "Connection": "keep-alive",
         "Content-Encoding": "gzip",
-        "Content-Length": "5748",
+        "Content-Length": "5749",
         "Content-Security-Policy-Report-Only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "Content-Type": "text/html; charset=UTF-8",
-        "Date": "Sun, 14 Jan 2024 01:20:32 GMT",
+        "Date": "Sun, 21 Jan 2024 01:20:46 GMT",
         "Expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "Keep-Alive": "timeout=15",
         "Pragma": "no-cache",
         "Server": "Apache",
-        "Set-Cookie": "DIY_SB=6a3821f2831ca2bf01090b73188f07c5; path=/;SameSite=None; secure",
+        "Set-Cookie": "DIY_SB=9b3fbb2a6c72b945cee5c929fdf8ae98; path=/;SameSite=None; secure",
         "Vary": "Accept-Encoding",
         "X-Content-Type-Options": "nosniff",
         "X-Xss-Protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
       },
-      "scan_id": 46434925,
+      "scan_id": 46790898,
       "score": 0,
-      "start_time": "Sun, 14 Jan 2024 01:20:28 GMT",
+      "start_time": "Sun, 21 Jan 2024 01:20:43 GMT",
       "state": "FINISHED",
       "status_code": 200,
       "tests_failed": 5,
@@ -190,7 +190,7 @@
                 "crossorigin": "anonymous",
                 "integrity": null
               },
-              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1705195232": {
+              "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1705800046": {
                 "crossorigin": null,
                 "integrity": null
               },
@@ -592,7 +592,7 @@
         "ip": "www.lathiere-finances.fr/217.160.0.141",
         "port": "443",
         "severity": "OK",
-        "finding": "239 >= 60 days"
+        "finding": "232 >= 60 days"
       },
       {
         "id": "cert_notBefore",
@@ -753,14 +753,14 @@
         "ip": "www.lathiere-finances.fr/217.160.0.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "-1 seconds from localtime"
+        "finding": "0 seconds from localtime"
       },
       {
         "id": "HTTP_headerTime",
         "ip": "www.lathiere-finances.fr/217.160.0.141",
         "port": "443",
         "severity": "INFO",
-        "finding": "1705195298"
+        "finding": "1705800113"
       },
       {
         "id": "HSTS",
@@ -1381,11 +1381,11 @@
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1705195024"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1705799852"
         },
         {
           "type": "unknown",
-          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1705195024"
+          "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1705799852"
         },
         {
           "type": "unknown",
@@ -1431,7 +1431,7 @@
       "cookies": [
         {
           "name": "DIY_SB",
-          "value": "75eda37882e56876a1b86e6c6ec61621",
+          "value": "4344d7cf0784ebf099bde0e8d563b663",
           "domain": "www.lathiere-finances.fr",
           "path": "/",
           "expires": -1,
@@ -1451,11 +1451,11 @@
         "content-length": "5749",
         "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
         "content-type": "text/html; charset=UTF-8",
-        "date": "Sun, 14 Jan 2024 01:17:04 GMT",
+        "date": "Sun, 21 Jan 2024 01:17:32 GMT",
         "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
         "pragma": "no-cache",
         "server": "Apache",
-        "set-cookie": "DIY_SB=75eda37882e56876a1b86e6c6ec61621; path=/;SameSite=None; secure",
+        "set-cookie": "DIY_SB=4344d7cf0784ebf099bde0e8d563b663; path=/;SameSite=None; secure",
         "vary": "Accept-Encoding",
         "x-content-type-options": "nosniff",
         "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
@@ -1848,7 +1848,7 @@
     "zap": {
       "@programName": "ZAP",
       "@version": "2.14.0",
-      "@generated": "Sun, 14 Jan 2024 01:20:01",
+      "@generated": "Sun, 21 Jan 2024 01:20:16",
       "site": [
         {
           "@name": "http://www.lathiere-finances.fr",
@@ -2005,7 +2005,49 @@
         "type": "dns",
         "host": "www.lathiere-finances.fr.",
         "matched-at": "www.lathiere-finances.fr",
-        "timestamp": "2024-01-14T01:23:04.47659293Z",
+        "timestamp": "2024-01-21T01:23:19.526081821Z",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/cookies-without-httponly-secure.yaml",
+        "template-url": "https://templates.nuclei.sh/public/cookies-without-httponly-secure",
+        "template-id": "cookies-without-httponly-secure",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/cookies-without-httponly-secure.yaml",
+        "info": {
+          "name": "Cookies without HttpOnly or Secure attribute - Detect",
+          "author": [
+            "princechaddha",
+            "mr.bobo hp"
+          ],
+          "tags": [
+            "misconfig",
+            "http",
+            "cookie",
+            "generic"
+          ],
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "impact": "Lack of HttpOnly flag on cookies increases the risk of client-side attacks, compromising user session security and data privacy.\n",
+          "reference": [
+            "https://owasp.org/www-community/httponly"
+          ],
+          "severity": "info",
+          "metadata": {
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": null,
+            "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          },
+          "remediation": "Ensure that all cookies are set with the HttpOnly attribute to prevent client-side access.\n"
+        },
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:21.63356913Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
         "matcher-status": true
       },
       {
@@ -2038,229 +2080,49 @@
           "IONOS MyWebsite"
         ],
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:08.619125234Z",
+        "timestamp": "2024-01-21T01:24:21.699362618Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
         "matcher-status": true
       },
       {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "template": "http/misconfiguration/cookies-without-httponly-secure.yaml",
+        "template-url": "https://templates.nuclei.sh/public/cookies-without-httponly-secure",
+        "template-id": "cookies-without-httponly-secure",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/cookies-without-httponly-secure.yaml",
         "info": {
-          "name": "HTTP Missing Security Headers",
+          "name": "Cookies without HttpOnly or Secure attribute - Detect",
           "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
+            "princechaddha",
+            "mr.bobo hp"
           ],
           "tags": [
             "misconfig",
-            "headers",
+            "http",
+            "cookie",
             "generic"
           ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "description": "Checks whether cookies in the HTTP response contain the HttpOnly attribute. If the HttpOnly flag is set, it means that the cookie is HTTP-only\n",
+          "impact": "Lack of HttpOnly flag on cookies increases the risk of client-side attacks, compromising user session security and data privacy.\n",
+          "reference": [
+            "https://owasp.org/www-community/httponly"
+          ],
           "severity": "info",
           "metadata": {
-            "max-request": 1
-          }
+            "max-request": 1,
+            "verified": true
+          },
+          "classification": {
+            "cve-id": null,
+            "cwe-id": null,
+            "cvss-metrics": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:N"
+          },
+          "remediation": "Ensure that all cookies are set with the HttpOnly attribute to prevent client-side access.\n"
         },
-        "matcher-name": "permissions-policy",
         "type": "http",
         "host": "http://www.lathiere-finances.fr",
-        "matched-at": "https://www.lathiere-finances.fr/",
+        "matched-at": "http://www.lathiere-finances.fr",
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.34017228Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "clear-site-data",
-        "type": "http",
-        "host": "http://www.lathiere-finances.fr",
-        "matched-at": "https://www.lathiere-finances.fr/",
-        "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340213116Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "x-permitted-cross-domain-policies",
-        "type": "http",
-        "host": "http://www.lathiere-finances.fr",
-        "matched-at": "https://www.lathiere-finances.fr/",
-        "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340223786Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "referrer-policy",
-        "type": "http",
-        "host": "http://www.lathiere-finances.fr",
-        "matched-at": "https://www.lathiere-finances.fr/",
-        "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340239004Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-embedder-policy",
-        "type": "http",
-        "host": "http://www.lathiere-finances.fr",
-        "matched-at": "https://www.lathiere-finances.fr/",
-        "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.34025247Z",
-        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
-        "matcher-status": true
-      },
-      {
-        "template": "http/misconfiguration/http-missing-security-headers.yaml",
-        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
-        "template-id": "http-missing-security-headers",
-        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
-        "info": {
-          "name": "HTTP Missing Security Headers",
-          "author": [
-            "socketz",
-            "geeknik",
-            "g4l1t0",
-            "convisoappsec",
-            "kurohost",
-            "dawid-czarnecki",
-            "forgedhallpass",
-            "jub0bs"
-          ],
-          "tags": [
-            "misconfig",
-            "headers",
-            "generic"
-          ],
-          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
-          "severity": "info",
-          "metadata": {
-            "max-request": 1
-          }
-        },
-        "matcher-name": "cross-origin-opener-policy",
-        "type": "http",
-        "host": "http://www.lathiere-finances.fr",
-        "matched-at": "https://www.lathiere-finances.fr/",
-        "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340266947Z",
+        "timestamp": "2024-01-21T01:24:21.816402313Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
         "matcher-status": true
       },
@@ -2297,7 +2159,7 @@
         "host": "http://www.lathiere-finances.fr",
         "matched-at": "https://www.lathiere-finances.fr/",
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340311911Z",
+        "timestamp": "2024-01-21T01:24:40.85875547Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
         "matcher-status": true
       },
@@ -2334,7 +2196,7 @@
         "host": "http://www.lathiere-finances.fr",
         "matched-at": "https://www.lathiere-finances.fr/",
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340329103Z",
+        "timestamp": "2024-01-21T01:24:40.858810062Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
         "matcher-status": true
       },
@@ -2371,7 +2233,229 @@
         "host": "http://www.lathiere-finances.fr",
         "matched-at": "https://www.lathiere-finances.fr/",
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:25.340346024Z",
+        "timestamp": "2024-01-21T01:24:40.858828526Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "referrer-policy",
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:40.858840769Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "clear-site-data",
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:40.858852742Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "permissions-policy",
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:40.858866388Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "x-permitted-cross-domain-policies",
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:40.85887868Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-embedder-policy",
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:40.858890633Z",
+        "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
+        "matcher-status": true
+      },
+      {
+        "template": "http/misconfiguration/http-missing-security-headers.yaml",
+        "template-url": "https://templates.nuclei.sh/public/http-missing-security-headers",
+        "template-id": "http-missing-security-headers",
+        "template-path": "/home/runner/nuclei-templates/http/misconfiguration/http-missing-security-headers.yaml",
+        "info": {
+          "name": "HTTP Missing Security Headers",
+          "author": [
+            "socketz",
+            "geeknik",
+            "g4l1t0",
+            "convisoappsec",
+            "kurohost",
+            "dawid-czarnecki",
+            "forgedhallpass",
+            "jub0bs"
+          ],
+          "tags": [
+            "misconfig",
+            "headers",
+            "generic"
+          ],
+          "description": "This template searches for missing HTTP security headers. The impact of these missing headers can vary.\n",
+          "severity": "info",
+          "metadata": {
+            "max-request": 1
+          }
+        },
+        "matcher-name": "cross-origin-opener-policy",
+        "type": "http",
+        "host": "http://www.lathiere-finances.fr",
+        "matched-at": "https://www.lathiere-finances.fr/",
+        "ip": "217.160.0.141",
+        "timestamp": "2024-01-21T01:24:40.858903898Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr'",
         "matcher-status": true
       },
@@ -2399,7 +2483,7 @@
         "host": "http://www.lathiere-finances.fr",
         "matched-at": "https://www.lathiere-finances.fr/robots.txt",
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:42.570583419Z",
+        "timestamp": "2024-01-21T01:24:57.393953177Z",
         "curl-command": "curl -X 'GET' -H 'Accept: */*' -H 'Accept-Language: en' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr/robots.txt'",
         "matcher-status": true
       },
@@ -2433,16 +2517,16 @@
         "host": "http://www.lathiere-finances.fr",
         "matched-at": "https://www.lathiere-finances.fr/",
         "extracted-results": [
-          "//cdn.website-start.de/s/build/web.bundle.js?1700651992739",
-          "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1700651992739",
           "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1700651992739",
           "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/",
           "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1700651992739",
-          "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1705195491",
-          "//cdn.website-start.de/app/cdn/min/group/web.js?1700651992739"
+          "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1705800307",
+          "//cdn.website-start.de/app/cdn/min/group/web.js?1700651992739",
+          "//cdn.website-start.de/s/build/web.bundle.js?1700651992739",
+          "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1700651992739"
         ],
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:24:51.587526756Z",
+        "timestamp": "2024-01-21T01:25:07.774515693Z",
         "curl-command": "curl -X 'GET' -d '' -H 'Host: www.lathiere-finances.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr/'",
         "matcher-status": true
       },
@@ -2482,7 +2566,7 @@
         "host": "http://www.lathiere-finances.fr",
         "matched-at": "http://www.lathiere-finances.fr/",
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:25:04.250988665Z",
+        "timestamp": "2024-01-21T01:25:21.19440651Z",
         "curl-command": "curl -X 'POST' -d '_=<script>alert(1)</script>' -H 'Content-Type: application/x-www-form-urlencoded' -H 'Host: www.lathiere-finances.fr' -H 'User-Agent: Nuclei - Open-source project (github.com/projectdiscovery/nuclei)' 'http://www.lathiere-finances.fr/'",
         "matcher-status": true
       },
@@ -2513,7 +2597,7 @@
           "DigiCert Inc"
         ],
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:29:03.496893934Z",
+        "timestamp": "2024-01-21T01:29:12.877764367Z",
         "matcher-status": true
       },
       {
@@ -2544,7 +2628,7 @@
           "lathiere-finances.fr"
         ],
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:29:03.497014509Z",
+        "timestamp": "2024-01-21T01:29:12.877883269Z",
         "matcher-status": true
       },
       {
@@ -2575,7 +2659,7 @@
           "tls12"
         ],
         "ip": "217.160.0.141",
-        "timestamp": "2024-01-14T01:29:05.808572929Z",
+        "timestamp": "2024-01-21T01:29:15.184365733Z",
         "matcher-status": true
       }
     ],
@@ -2583,7 +2667,7 @@
       {
         "requestedUrl": "http://www.lathiere-finances.fr/",
         "finalUrl": "https://www.lathiere-finances.fr/",
-        "fetchTime": "2024-01-14T01:20:16.634Z",
+        "fetchTime": "2024-01-21T01:20:31.555Z",
         "runWarnings": [
           "The page may not be loading as expected because your test URL (http://www.lathiere-finances.fr/) was redirected to https://www.lathiere-finances.fr/. Try testing the second URL directly."
         ],
@@ -2596,7 +2680,7 @@
               "snapshot"
             ],
             "id": "performance",
-            "score": 0.972203254699707
+            "score": 0.9722028732299804
           },
           "accessibility": {
             "title": "Accessibility",
@@ -2648,53 +2732,53 @@
             "description": "Collects all available metrics.",
             "score": null,
             "scoreDisplayMode": "informative",
-            "numericValue": 3883,
+            "numericValue": 3676,
             "numericUnit": "millisecond",
             "details": {
               "type": "debugdata",
               "items": [
                 {
-                  "firstContentfulPaint": 3596,
-                  "firstMeaningfulPaint": 3625,
-                  "largestContentfulPaint": 8445,
-                  "interactive": 3883,
-                  "speedIndex": 6092,
-                  "totalBlockingTime": 17,
-                  "maxPotentialFID": 76,
+                  "firstContentfulPaint": 3676,
+                  "firstMeaningfulPaint": 3676,
+                  "largestContentfulPaint": 8414,
+                  "interactive": 3676,
+                  "speedIndex": 5657,
+                  "totalBlockingTime": 0,
+                  "maxPotentialFID": 35,
                   "cumulativeLayoutShift": 0,
                   "cumulativeLayoutShiftMainFrame": 0,
                   "totalCumulativeLayoutShift": 0,
                   "observedTimeOrigin": 0,
-                  "observedTimeOriginTs": 352017675,
+                  "observedTimeOriginTs": 376983966,
                   "observedNavigationStart": 0,
-                  "observedNavigationStartTs": 352017675,
-                  "observedFirstPaint": 2621,
-                  "observedFirstPaintTs": 354638727,
-                  "observedFirstContentfulPaint": 2621,
-                  "observedFirstContentfulPaintTs": 354638727,
-                  "observedFirstContentfulPaintAllFrames": 2621,
-                  "observedFirstContentfulPaintAllFramesTs": 354638727,
-                  "observedFirstMeaningfulPaint": 2621,
-                  "observedFirstMeaningfulPaintTs": 354638727,
-                  "observedLargestContentfulPaint": 2621,
-                  "observedLargestContentfulPaintTs": 354638727,
-                  "observedLargestContentfulPaintAllFrames": 2621,
-                  "observedLargestContentfulPaintAllFramesTs": 354638727,
-                  "observedTraceEnd": 4949,
-                  "observedTraceEndTs": 356967158,
-                  "observedLoad": 2603,
-                  "observedLoadTs": 354620459,
-                  "observedDomContentLoaded": 2584,
-                  "observedDomContentLoadedTs": 354601668,
+                  "observedNavigationStartTs": 376983966,
+                  "observedFirstPaint": 2393,
+                  "observedFirstPaintTs": 379377259,
+                  "observedFirstContentfulPaint": 2393,
+                  "observedFirstContentfulPaintTs": 379377259,
+                  "observedFirstContentfulPaintAllFrames": 2393,
+                  "observedFirstContentfulPaintAllFramesTs": 379377259,
+                  "observedFirstMeaningfulPaint": 2393,
+                  "observedFirstMeaningfulPaintTs": 379377259,
+                  "observedLargestContentfulPaint": 2393,
+                  "observedLargestContentfulPaintTs": 379377259,
+                  "observedLargestContentfulPaintAllFrames": 2393,
+                  "observedLargestContentfulPaintAllFramesTs": 379377259,
+                  "observedTraceEnd": 4816,
+                  "observedTraceEndTs": 381799555,
+                  "observedLoad": 2499,
+                  "observedLoadTs": 379483268,
+                  "observedDomContentLoaded": 2396,
+                  "observedDomContentLoadedTs": 379380214,
                   "observedCumulativeLayoutShift": 0,
                   "observedCumulativeLayoutShiftMainFrame": 0,
                   "observedTotalCumulativeLayoutShift": 0,
-                  "observedFirstVisualChange": 2634,
-                  "observedFirstVisualChangeTs": 354651675,
-                  "observedLastVisualChange": 2634,
-                  "observedLastVisualChangeTs": 354651675,
-                  "observedSpeedIndex": 2635,
-                  "observedSpeedIndexTs": 354652480
+                  "observedFirstVisualChange": 2400,
+                  "observedFirstVisualChangeTs": 379383966,
+                  "observedLastVisualChange": 2400,
+                  "observedLastVisualChangeTs": 379383966,
+                  "observedSpeedIndex": 2401,
+                  "observedSpeedIndexTs": 379384824
                 },
                 {
                   "lcpInvalidated": false
@@ -2716,19 +2800,19 @@
                   "numScripts": 7,
                   "numStylesheets": 9,
                   "numFonts": 0,
-                  "numTasks": 399,
-                  "numTasksOver10ms": 5,
-                  "numTasksOver25ms": 2,
+                  "numTasks": 402,
+                  "numTasksOver10ms": 4,
+                  "numTasksOver25ms": 0,
                   "numTasksOver50ms": 0,
                   "numTasksOver100ms": 0,
                   "numTasksOver500ms": 0,
-                  "rtt": 157.176,
-                  "throughput": 7708376.916024399,
-                  "maxRtt": 161.319,
-                  "maxServerLatency": 114.73700000000002,
-                  "totalByteWeight": 1194311,
-                  "totalTaskTime": 158.27800000000002,
-                  "mainDocumentTransferSize": 6296
+                  "rtt": 157.78699999999998,
+                  "throughput": 9445104.27719933,
+                  "maxRtt": 161.577,
+                  "maxServerLatency": 78.18700000000004,
+                  "totalByteWeight": 1194313,
+                  "totalTaskTime": 113.65299999999999,
+                  "mainDocumentTransferSize": 6297
                 }
               ]
             }
@@ -2750,7 +2834,7 @@
         "width": 1920,
         "height": 1080,
         "url": "http://www.lathiere-finances.fr",
-        "size": 1222.186,
+        "size": 1222.187,
         "nodes": 302,
         "requests": 24,
         "grade": "B",
@@ -2758,11 +2842,12 @@
         "ges": 1.5,
         "water": 2.25,
         "ecoindex_version": "5.4.2",
-        "date": "2024-01-14 01:18:09.495665",
+        "date": "2024-01-21 01:18:38.571695",
         "page_type": "business.business"
       }
     ],
     "sonarcloud": null,
+    "dsfr": null,
     "summary": {
       "404": "A+",
       "httpGrade": "F",
@@ -2773,7 +2858,7 @@
       "cookiesCount": 1,
       "trackersGrade": "F",
       "trackersCount": 16,
-      "lighthouse_performance": 0.972203254699707,
+      "lighthouse_performance": 0.9722028732299804,
       "lighthouse_performanceGrade": "A",
       "lighthouse_accessibility": 0.81,
       "lighthouse_accessibilityGrade": "B",
