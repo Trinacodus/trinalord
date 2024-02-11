@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 4 Feb 2024 01:14:23",
+	"@generated": "Sun, 11 Feb 2024 01:14:10",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -87,6 +87,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
 							"method": "GET",
 							"param": "",
@@ -96,14 +104,6 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/?mod-form-5809330330-text-2029898=ZAP&mod-form-5809330330-text-2029901=ZAP&mod-form-5809330330-text-2029902=ZAP&mod-form-5809330330-textarea-2029906&mod-form-submit=Envoyer+le+formulaire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -201,7 +201,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1707009259\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1707614046\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -217,7 +217,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707009259\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707614046\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -233,7 +233,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1707009260\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1707614046\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -249,7 +249,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707009260\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707614046\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -350,7 +350,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -488,9 +488,9 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1707009259",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1707614046",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707009259\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707614046\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -500,15 +500,127 @@
 							"attack": "",
 							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.website-start.de/proxy/apps/static/resource/dependencies/\"></script>",
 							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1706106219239",
+							"attack": "",
+							"evidence": "<script src=\"//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1706106219239\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/s/build/web.bundle.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1707614046",
+							"attack": "",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707614046\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
+							"method": "GET",
+							"param": "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.website-start.de/proxy/apps/static/resource/dependencies/\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/group/web.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/app/cdn/min/group/web.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,form,shoppingbasket?1706106219239",
+							"attack": "",
+							"evidence": "<script src=\"//cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,form,shoppingbasket?1706106219239\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "//cdn.website-start.de/s/build/web.bundle.js?1706106219239",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"//cdn.website-start.de/s/build/web.bundle.js?1706106219239\" crossorigin=\"anonymous\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1707614047",
+							"attack": "",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1707614047\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/",
+							"method": "GET",
+							"param": "https://cdn.website-start.de/proxy/apps/static/resource/dependencies/",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.website-start.de/proxy/apps/static/resource/dependencies/\"></script>",
+							"otherinfo": ""
 						}
 					],
-					"count": "7",
+					"count": "21",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -648,8 +760,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1707009259",
-							"otherinfo": "1707009259, which evaluates to: 2024-02-04 01:14:19"
+							"evidence": "1707614046",
+							"otherinfo": "1707614046, which evaluates to: 2024-02-11 01:14:06"
 						}
 					],
 					"count": "8",
@@ -693,7 +805,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10038",
@@ -722,6 +834,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
 							"method": "GET",
 							"param": "",
@@ -736,14 +856,6 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/nous-rejoindre/?mod-form-5809330330-text-2029898=ZAP&mod-form-5809330330-text-2029901=ZAP&mod-form-5809330330-text-2029902=ZAP&mod-form-5809330330-textarea-2029906&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
 						}
 					],
 					"count": "5",
@@ -752,7 +864,7 @@
 					"reference": "<p>https://www.w3.org/TR/CSP2/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -1091,7 +1203,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "4e0563973909128976b2a2f4a034814b",
+							"evidence": "2335ac4572f860c44675ee0be99f0dd0",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1099,7 +1211,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "843c77e40f0feeeab2182d339a3f16e9",
+							"evidence": "4e2558af3ce7d203cf171200e8a57994",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1107,7 +1219,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "9696104793e075f9afe35da055acb6b8",
+							"evidence": "6fc88409da7d854e808c7f931c1573ff",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1115,7 +1227,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "0f69eff4d3d867e358ce3468cd066832",
+							"evidence": "521dbf21469bf0eb409f51e6b03c043a",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1123,7 +1235,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "324e557f7a769b6cc7eecb0d486a00c1",
+							"evidence": "ff255dfa4494be85e5be320c48f94814",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1131,7 +1243,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "3bff9d855e8096aa19cc0fbf531ba41e",
+							"evidence": "d126b254761138d1bb0a962860d25d0d",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1139,7 +1251,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "e5587391c1e6549c140c2f07543db4f9",
+							"evidence": "b4738b7f49b553dec9bdb05ab178e93e",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1147,7 +1259,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "fbf41681d8eccfe51d3f91e3de44c79a",
+							"evidence": "d2cc8ab97e55742491ba614a1e9bb025",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1155,7 +1267,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "3730373fe36fcef497a2cd3858793f34",
+							"evidence": "993f17cb29724ff3ecc4e5049a259882",
 							"otherinfo": "\ncookie:DIY_SB"
 						}
 					],
@@ -1165,7 +1277,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10031",
@@ -1200,7 +1312,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "22"
+					"sourceid": "21"
 				}
 			]
 		}

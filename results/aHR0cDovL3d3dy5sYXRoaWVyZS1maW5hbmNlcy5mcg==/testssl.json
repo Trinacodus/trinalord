@@ -346,7 +346,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.80",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "218 >= 60 days"
+              "finding"      : "211 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -514,7 +514,7 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.80",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1707009455"
+              "finding"      : "1707614100"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "www.lathiere-finances.fr/217.160.0.80",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "114"
+              "finding"      : "60"
           }
 ]
