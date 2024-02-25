@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 18 Feb 2024 01:13:05",
+	"@generated": "Sun, 25 Feb 2024 01:13:27",
 	"site":[ 
 		{
 			"@name": "http://www.lathiere-finances.fr",
@@ -87,14 +87,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
 							"method": "GET",
 							"param": "",
@@ -119,13 +111,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "6",
+					"count": "5",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>https://www.w3.org/TR/CSP/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://web.dev/articles/csp</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10020",
@@ -192,7 +184,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
 					"cweid": "1021",
 					"wascid": "15",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "90003",
@@ -209,7 +201,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1708218781\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1708823603\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -225,7 +217,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708218781\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708823603\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -237,11 +229,43 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1708823604\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link rel=\"dns-prefetch\" href=\"https://101.sb.mywebsite-editor.com/\"/>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708823604\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script type=\"text/javascript\" src=\"https://cdn.website-start.de/proxy/apps/static/resource/dependencies/\"></script>",
+							"otherinfo": ""
+						},
+						{
 							"uri": "http://www.lathiere-finances.fr/espace-partenaires/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1708218781\" rel=\"stylesheet\" type=\"text/css\"/>",
+							"evidence": "<link href=\"https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&amp;t=1708823604\" rel=\"stylesheet\" type=\"text/css\"/>",
 							"otherinfo": ""
 						},
 						{
@@ -257,7 +281,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708218781\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708823604\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -269,7 +293,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "8",
+					"count": "12",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
@@ -358,7 +382,7 @@
 					"reference": "<p>https://owasp.org/www-community/HttpOnly</p>",
 					"cweid": "1004",
 					"wascid": "13",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -441,7 +465,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10017",
@@ -496,9 +520,9 @@
 						{
 							"uri": "http://www.lathiere-finances.fr",
 							"method": "GET",
-							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1708218781",
+							"param": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1708823603",
 							"attack": "",
-							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708218781\"></script>",
+							"evidence": "<script src=\"https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&amp;t=1708823603\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -516,7 +540,7 @@
 					"reference": "",
 					"cweid": "829",
 					"wascid": "15",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -656,8 +680,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1708218781",
-							"otherinfo": "1708218781, which evaluates to: 2024-02-18 01:13:01"
+							"evidence": "1708823603",
+							"otherinfo": "1708823603, which evaluates to: 2024-02-25 01:13:23"
 						}
 					],
 					"count": "8",
@@ -701,7 +725,7 @@
 					"reference": "<p>https://learn.microsoft.com/en-us/previous-versions/windows/internet-explorer/ie-developer/compatibility/gg622941(v=vs.85)</p><p>https://owasp.org/www-community/Security_Headers</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10038",
@@ -723,14 +747,6 @@
 						},
 						{
 							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "http://www.lathiere-finances.fr/assurances/assurance-emprunteur/?mod-form-5809307462-text-2029001=ZAP&mod-form-5809307462-text-2029002=ZAP&mod-form-5809307462-text-2029003=ZAP&mod-form-5809307462-text-2029004=ZAP&mod-form-5809307462-text-2029005=ZAP&mod-form-5809307462-text-2029006=ZAP&mod-form-5809307462-text-2029011=ZAP&mod-form-5809307462-text-2029012=ZAP&mod-form-5809307462-textarea-2029009&mod-form-submit=Envoyer+le+formulaire",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -762,13 +778,13 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "6",
+					"count": "5",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://www.w3.org/TR/CSP2/</p><p>https://w3c.github.io/webappsec-csp/</p><p>https://caniuse.com/#feat=contentsecuritypolicy</p><p>https://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "11"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10109",
@@ -835,7 +851,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10049",
@@ -918,7 +934,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "90005",
@@ -945,9 +961,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Dest",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Dest header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
@@ -980,9 +1004,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Mode",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Mode header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
@@ -1015,9 +1047,17 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-Site",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-Site header is included in request headers.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
@@ -1050,15 +1090,23 @@
 							"attack": "",
 							"evidence": "",
 							"otherinfo": ""
+						},
+						{
+							"uri": "http://www.lathiere-finances.fr/sitemap.xml",
+							"method": "GET",
+							"param": "Sec-Fetch-User",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that Sec-Fetch-User header is included in user initiated requests.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "11"
 				},
 				{
 					"pluginid": "10112",
@@ -1075,7 +1123,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "265117587de646db15f847f467a0f346",
+							"evidence": "53ca6da4bb1e0e4071909899f75ab4e5",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1083,7 +1131,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "27eb7cda0b9953ac7998c3bc83030dc3",
+							"evidence": "9c66d41ad46169d055377df1ca4d8ff4",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1091,7 +1139,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "7a47f9300ab5e802c730d9a793d5183b",
+							"evidence": "fed4ef8a667b2e9ffd159e49b65c1384",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1099,7 +1147,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "000ff85bbc5b3375573442ab4a9235e3",
+							"evidence": "73c57edd769b2ed3b1aaa23893d31ba1",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1107,7 +1155,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "4fcef27803e0dd2641503fd98ce801d7",
+							"evidence": "061a74c573a69b9057e93263f710670c",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1115,7 +1163,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "3efaf13f4b824aa425b9bb1c6586e7e7",
+							"evidence": "aba077883d8e8b2db6a13c16234c5687",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1123,7 +1171,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "472e4e15be88dc997d0cb24aa6a23711",
+							"evidence": "519f15d26bd0be1baefdfa65395ef585",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1131,7 +1179,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "38e5d32648f13a65df36b6030f71310b",
+							"evidence": "b81d620a52a2fc88c201cef6219fd11e",
 							"otherinfo": "\ncookie:DIY_SB"
 						},
 						{
@@ -1139,7 +1187,7 @@
 							"method": "GET",
 							"param": "DIY_SB",
 							"attack": "",
-							"evidence": "1d89eac028f6d2d911a167851841101e",
+							"evidence": "3c2ce5c4a199bd415aaa56c4b444a217",
 							"otherinfo": "\ncookie:DIY_SB"
 						}
 					],
@@ -1184,7 +1232,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "21"
+					"sourceid": "22"
 				}
 			]
 		}
