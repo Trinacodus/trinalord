@@ -16,45 +16,7 @@
         "href": "http://www.lathiere-finances.fr/"
       },
       "link": "http://www.lathiere-finances.fr/",
-      "line": "--2024-03-03 01:10:42--  http://www.lathiere-finances.fr/",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/robots.txt",
-        "path": "/robots.txt",
-        "href": "https://www.lathiere-finances.fr/robots.txt"
-      },
-      "link": "https://www.lathiere-finances.fr/robots.txt",
-      "line": "--2024-03-03 01:10:43--  https://www.lathiere-finances.fr/robots.txt",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?1706732341",
-        "query": "1706732341",
-        "pathname": "/s/style/theming.css",
-        "path": "/s/style/theming.css?1706732341",
-        "href": "https://www.lathiere-finances.fr/s/style/theming.css?1706732341"
-      },
-      "link": "https://www.lathiere-finances.fr/s/style/theming.css?1706732341",
-      "line": "--2024-03-03 01:10:43--  https://www.lathiere-finances.fr/s/style/theming.css?1706732341",
+      "line": "--2024-03-10 01:11:32--  http://www.lathiere-finances.fr/",
       "broken": false
     },
     {
@@ -73,7 +35,45 @@
         "href": "https://www.lathiere-finances.fr/"
       },
       "link": "https://www.lathiere-finances.fr/",
-      "line": "--2024-03-03 01:10:44--  https://www.lathiere-finances.fr/",
+      "line": "--2024-03-10 01:11:33--  https://www.lathiere-finances.fr/",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lathiere-finances.fr",
+        "port": null,
+        "hostname": "www.lathiere-finances.fr",
+        "hash": null,
+        "search": null,
+        "query": null,
+        "pathname": "/robots.txt",
+        "path": "/robots.txt",
+        "href": "https://www.lathiere-finances.fr/robots.txt"
+      },
+      "link": "https://www.lathiere-finances.fr/robots.txt",
+      "line": "--2024-03-10 01:11:33--  https://www.lathiere-finances.fr/robots.txt",
+      "broken": false
+    },
+    {
+      "url": {
+        "protocol": "https:",
+        "slashes": true,
+        "auth": null,
+        "host": "www.lathiere-finances.fr",
+        "port": null,
+        "hostname": "www.lathiere-finances.fr",
+        "hash": null,
+        "search": "?1706732341",
+        "query": "1706732341",
+        "pathname": "/s/style/theming.css",
+        "path": "/s/style/theming.css?1706732341",
+        "href": "https://www.lathiere-finances.fr/s/style/theming.css?1706732341"
+      },
+      "link": "https://www.lathiere-finances.fr/s/style/theming.css?1706732341",
+      "line": "--2024-03-10 01:11:33--  https://www.lathiere-finances.fr/s/style/theming.css?1706732341",
       "broken": false
     },
     {
@@ -92,45 +92,7 @@
         "href": "https://www.lathiere-finances.fr/strat%C3%A9gie-patrimoniale/"
       },
       "link": "https://www.lathiere-finances.fr/strat%C3%A9gie-patrimoniale/",
-      "line": "--2024-03-03 01:10:44--  https://www.lathiere-finances.fr/strat%C3%A9gie-patrimoniale/",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/pr%C3%AAts-immobiliers/",
-        "path": "/pr%C3%AAts-immobiliers/",
-        "href": "https://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/"
-      },
-      "link": "https://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-      "line": "--2024-03-03 01:10:44--  https://www.lathiere-finances.fr/pr%C3%AAts-immobiliers/",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": null,
-        "query": null,
-        "pathname": "/rachat-de-cr%C3%A9dits/",
-        "path": "/rachat-de-cr%C3%A9dits/",
-        "href": "https://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/"
-      },
-      "link": "https://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
-      "line": "--2024-03-03 01:10:45--  https://www.lathiere-finances.fr/rachat-de-cr%C3%A9dits/",
+      "line": "--2024-03-10 01:11:34--  https://www.lathiere-finances.fr/strat%C3%A9gie-patrimoniale/",
       "broken": false
     },
     {
@@ -149,7 +111,7 @@
         "href": "https://www.lathiere-finances.fr/assurances/"
       },
       "link": "https://www.lathiere-finances.fr/assurances/",
-      "line": "--2024-03-03 01:10:45--  https://www.lathiere-finances.fr/assurances/",
+      "line": "--2024-03-10 01:11:34--  https://www.lathiere-finances.fr/assurances/",
       "broken": false
     },
     {
@@ -168,7 +130,7 @@
         "href": "https://www.lathiere-finances.fr/contact/"
       },
       "link": "https://www.lathiere-finances.fr/contact/",
-      "line": "--2024-03-03 01:10:46--  https://www.lathiere-finances.fr/contact/",
+      "line": "--2024-03-10 01:11:34--  https://www.lathiere-finances.fr/contact/",
       "broken": false
     },
     {
@@ -187,7 +149,7 @@
         "href": "https://www.lathiere-finances.fr/mentions-l%C3%A9gales/"
       },
       "link": "https://www.lathiere-finances.fr/mentions-l%C3%A9gales/",
-      "line": "--2024-03-03 01:10:46--  https://www.lathiere-finances.fr/mentions-l%C3%A9gales/",
+      "line": "--2024-03-10 01:11:35--  https://www.lathiere-finances.fr/mentions-l%C3%A9gales/",
       "broken": false
     },
     {
@@ -199,14 +161,14 @@
         "port": null,
         "hostname": "www.lathiere-finances.fr",
         "hash": null,
-        "search": "?t=1706732424",
-        "query": "t=1706732424",
+        "search": "?t=1709914587",
+        "query": "t=1709914587",
         "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706732424",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706732424"
+        "path": "/s/misc/logo.png?t=1709914587",
+        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709914587"
       },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706732424",
-      "line": "--2024-03-03 01:10:46--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706732424",
+      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709914587",
+      "line": "--2024-03-10 01:11:35--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1709914587",
       "broken": false
     },
     {
@@ -225,7 +187,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506",
-      "line": "--2024-03-03 01:10:47--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506",
+      "line": "--2024-03-10 01:11:35--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472086569.png?t=1486720506",
       "broken": false
     },
     {
@@ -244,7 +206,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472086569.png?t=1486720506"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472086569.png?t=1486720506",
-      "line": "--2024-03-03 01:10:47--  https://www.lathiere-finances.fr/s/cc_images/cache_2472086569.png?t=1486720506",
+      "line": "--2024-03-10 01:11:35--  https://www.lathiere-finances.fr/s/cc_images/cache_2472086569.png?t=1486720506",
       "broken": false
     },
     {
@@ -263,7 +225,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726",
-      "line": "--2024-03-03 01:10:47--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726",
+      "line": "--2024-03-10 01:11:35--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199696.png?t=1487962726",
       "broken": false
     },
     {
@@ -282,7 +244,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472199696.png?t=1487962726"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472199696.png?t=1487962726",
-      "line": "--2024-03-03 01:10:47--  https://www.lathiere-finances.fr/s/cc_images/cache_2472199696.png?t=1487962726",
+      "line": "--2024-03-10 01:11:35--  https://www.lathiere-finances.fr/s/cc_images/cache_2472199696.png?t=1487962726",
       "broken": false
     },
     {
@@ -301,7 +263,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199697.png?t=1487965670"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199697.png?t=1487965670",
-      "line": "--2024-03-03 01:10:47--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199697.png?t=1487965670",
+      "line": "--2024-03-10 01:11:36--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199697.png?t=1487965670",
       "broken": false
     },
     {
@@ -320,7 +282,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472199697.png?t=1487965670"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472199697.png?t=1487965670",
-      "line": "--2024-03-03 01:10:47--  https://www.lathiere-finances.fr/s/cc_images/cache_2472199697.png?t=1487965670",
+      "line": "--2024-03-10 01:11:36--  https://www.lathiere-finances.fr/s/cc_images/cache_2472199697.png?t=1487965670",
       "broken": false
     },
     {
@@ -339,7 +301,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199698.png?t=1487962756"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199698.png?t=1487962756",
-      "line": "--2024-03-03 01:10:48--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199698.png?t=1487962756",
+      "line": "--2024-03-10 01:11:36--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472199698.png?t=1487962756",
       "broken": false
     },
     {
@@ -358,7 +320,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756",
-      "line": "--2024-03-03 01:10:48--  https://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756",
+      "line": "--2024-03-10 01:11:36--  https://www.lathiere-finances.fr/s/cc_images/cache_2472199698.png?t=1487962756",
       "broken": false
     },
     {
@@ -377,7 +339,7 @@
         "href": "https://www.lathiere-finances.fr/sitemap/"
       },
       "link": "https://www.lathiere-finances.fr/sitemap/",
-      "line": "--2024-03-03 01:10:48--  https://www.lathiere-finances.fr/sitemap/",
+      "line": "--2024-03-10 01:11:36--  https://www.lathiere-finances.fr/sitemap/",
       "broken": false
     },
     {
@@ -389,14 +351,14 @@
         "port": null,
         "hostname": "www.lathiere-finances.fr",
         "hash": null,
-        "search": "?t=1706786561",
-        "query": "t=1706786561",
+        "search": "?t=1709948143",
+        "query": "t=1709948143",
         "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706786561",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786561"
+        "path": "/s/misc/logo.png?t=1709948143",
+        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709948143"
       },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786561",
-      "line": "--2024-03-03 01:10:48--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786561",
+      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709948143",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1709948143",
       "broken": false
     },
     {
@@ -415,7 +377,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2491887434.jpg?t=1694818668"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2491887434.jpg?t=1694818668",
-      "line": "--2024-03-03 01:10:48--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2491887434.jpg?t=1694818668",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2491887434.jpg?t=1694818668",
       "broken": false
     },
     {
@@ -434,7 +396,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2491887434.jpg?t=1694818668"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2491887434.jpg?t=1694818668",
-      "line": "--2024-03-03 01:10:48--  https://www.lathiere-finances.fr/s/cc_images/cache_2491887434.jpg?t=1694818668",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/cache_2491887434.jpg?t=1694818668",
       "broken": false
     },
     {
@@ -446,546 +408,14 @@
         "port": null,
         "hostname": "www.lathiere-finances.fr",
         "hash": null,
-        "search": "?t=1706786564",
-        "query": "t=1706786564",
+        "search": "?t=1709948137",
+        "query": "t=1709948137",
         "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706786564",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786564"
+        "path": "/s/misc/logo.png?t=1709948137",
+        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709948137"
       },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786564",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786564",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486733852",
-        "query": "t=1486733852",
-        "pathname": "/s/cc_images/teaserbox_2472208276.png",
-        "path": "/s/cc_images/teaserbox_2472208276.png?t=1486733852",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472208276.png?t=1486733852"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472208276.png?t=1486733852",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472208276.png?t=1486733852",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486733852",
-        "query": "t=1486733852",
-        "pathname": "/s/cc_images/cache_2472208276.png",
-        "path": "/s/cc_images/cache_2472208276.png?t=1486733852",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472208276.png?t=1486733852"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472208276.png?t=1486733852",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/cache_2472208276.png?t=1486733852",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739909",
-        "query": "t=1486739909",
-        "pathname": "/s/cc_images/teaserbox_2472212106.png",
-        "path": "/s/cc_images/teaserbox_2472212106.png?t=1486739909",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212106.png?t=1486739909"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212106.png?t=1486739909",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212106.png?t=1486739909",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739909",
-        "query": "t=1486739909",
-        "pathname": "/s/cc_images/cache_2472212106.png",
-        "path": "/s/cc_images/cache_2472212106.png?t=1486739909",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212106.png?t=1486739909"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212106.png?t=1486739909",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212106.png?t=1486739909",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739926",
-        "query": "t=1486739926",
-        "pathname": "/s/cc_images/teaserbox_2472212107.png",
-        "path": "/s/cc_images/teaserbox_2472212107.png?t=1486739926",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212107.png?t=1486739926"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212107.png?t=1486739926",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212107.png?t=1486739926",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739926",
-        "query": "t=1486739926",
-        "pathname": "/s/cc_images/cache_2472212107.png",
-        "path": "/s/cc_images/cache_2472212107.png?t=1486739926",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212107.png?t=1486739926"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212107.png?t=1486739926",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212107.png?t=1486739926",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739945",
-        "query": "t=1486739945",
-        "pathname": "/s/cc_images/teaserbox_2472212108.png",
-        "path": "/s/cc_images/teaserbox_2472212108.png?t=1486739945",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212108.png?t=1486739945"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212108.png?t=1486739945",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212108.png?t=1486739945",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739945",
-        "query": "t=1486739945",
-        "pathname": "/s/cc_images/cache_2472212108.png",
-        "path": "/s/cc_images/cache_2472212108.png?t=1486739945",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212108.png?t=1486739945"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212108.png?t=1486739945",
-      "line": "--2024-03-03 01:10:49--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212108.png?t=1486739945",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739959",
-        "query": "t=1486739959",
-        "pathname": "/s/cc_images/teaserbox_2472212109.png",
-        "path": "/s/cc_images/teaserbox_2472212109.png?t=1486739959",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212109.png?t=1486739959"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212109.png?t=1486739959",
-      "line": "--2024-03-03 01:10:50--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212109.png?t=1486739959",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739959",
-        "query": "t=1486739959",
-        "pathname": "/s/cc_images/cache_2472212109.png",
-        "path": "/s/cc_images/cache_2472212109.png?t=1486739959",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212109.png?t=1486739959"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212109.png?t=1486739959",
-      "line": "--2024-03-03 01:10:50--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212109.png?t=1486739959",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739976",
-        "query": "t=1486739976",
-        "pathname": "/s/cc_images/teaserbox_2472212110.png",
-        "path": "/s/cc_images/teaserbox_2472212110.png?t=1486739976",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212110.png?t=1486739976"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212110.png?t=1486739976",
-      "line": "--2024-03-03 01:10:50--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212110.png?t=1486739976",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739976",
-        "query": "t=1486739976",
-        "pathname": "/s/cc_images/cache_2472212110.png",
-        "path": "/s/cc_images/cache_2472212110.png?t=1486739976",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212110.png?t=1486739976"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212110.png?t=1486739976",
-      "line": "--2024-03-03 01:10:50--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212110.png?t=1486739976",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739991",
-        "query": "t=1486739991",
-        "pathname": "/s/cc_images/teaserbox_2472212111.png",
-        "path": "/s/cc_images/teaserbox_2472212111.png?t=1486739991",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212111.png?t=1486739991"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212111.png?t=1486739991",
-      "line": "--2024-03-03 01:10:50--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212111.png?t=1486739991",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486739991",
-        "query": "t=1486739991",
-        "pathname": "/s/cc_images/cache_2472212111.png",
-        "path": "/s/cc_images/cache_2472212111.png?t=1486739991",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212111.png?t=1486739991"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212111.png?t=1486739991",
-      "line": "--2024-03-03 01:10:50--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212111.png?t=1486739991",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486740007",
-        "query": "t=1486740007",
-        "pathname": "/s/cc_images/teaserbox_2472212138.png",
-        "path": "/s/cc_images/teaserbox_2472212138.png?t=1486740007",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212138.png?t=1486740007"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212138.png?t=1486740007",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212138.png?t=1486740007",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486740007",
-        "query": "t=1486740007",
-        "pathname": "/s/cc_images/cache_2472212138.png",
-        "path": "/s/cc_images/cache_2472212138.png?t=1486740007",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212138.png?t=1486740007"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212138.png?t=1486740007",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212138.png?t=1486740007",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486740018",
-        "query": "t=1486740018",
-        "pathname": "/s/cc_images/teaserbox_2472212139.png",
-        "path": "/s/cc_images/teaserbox_2472212139.png?t=1486740018",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212139.png?t=1486740018"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212139.png?t=1486740018",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472212139.png?t=1486740018",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486740018",
-        "query": "t=1486740018",
-        "pathname": "/s/cc_images/cache_2472212139.png",
-        "path": "/s/cc_images/cache_2472212139.png?t=1486740018",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212139.png?t=1486740018"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472212139.png?t=1486740018",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/cache_2472212139.png?t=1486740018",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1487713894",
-        "query": "t=1487713894",
-        "pathname": "/s/cc_images/teaserbox_2472409884.png",
-        "path": "/s/cc_images/teaserbox_2472409884.png?t=1487713894",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409884.png?t=1487713894"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409884.png?t=1487713894",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409884.png?t=1487713894",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1487713894",
-        "query": "t=1487713894",
-        "pathname": "/s/cc_images/cache_2472409884.png",
-        "path": "/s/cc_images/cache_2472409884.png?t=1487713894",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409884.png?t=1487713894"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409884.png?t=1487713894",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409884.png?t=1487713894",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1487713911",
-        "query": "t=1487713911",
-        "pathname": "/s/cc_images/teaserbox_2472409885.png",
-        "path": "/s/cc_images/teaserbox_2472409885.png?t=1487713911",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409885.png?t=1487713911"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409885.png?t=1487713911",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409885.png?t=1487713911",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1487713911",
-        "query": "t=1487713911",
-        "pathname": "/s/cc_images/cache_2472409885.png",
-        "path": "/s/cc_images/cache_2472409885.png?t=1487713911",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409885.png?t=1487713911"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409885.png?t=1487713911",
-      "line": "--2024-03-03 01:10:51--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409885.png?t=1487713911",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1487713925",
-        "query": "t=1487713925",
-        "pathname": "/s/cc_images/teaserbox_2472409886.png",
-        "path": "/s/cc_images/teaserbox_2472409886.png?t=1487713925",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409886.png?t=1487713925"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409886.png?t=1487713925",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409886.png?t=1487713925",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1487713925",
-        "query": "t=1487713925",
-        "pathname": "/s/cc_images/cache_2472409886.png",
-        "path": "/s/cc_images/cache_2472409886.png?t=1487713925",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409886.png?t=1487713925"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409886.png?t=1487713925",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409886.png?t=1487713925",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1706769345",
-        "query": "t=1706769345",
-        "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706769345",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706769345"
-      },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706769345",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706769345",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486740555",
-        "query": "t=1486740555",
-        "pathname": "/s/cc_images/teaserbox_2472213262.jpg",
-        "path": "/s/cc_images/teaserbox_2472213262.jpg?t=1486740555",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472213262.jpg?t=1486740555"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472213262.jpg?t=1486740555",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472213262.jpg?t=1486740555",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1486740555",
-        "query": "t=1486740555",
-        "pathname": "/s/cc_images/cache_2472213262.jpg",
-        "path": "/s/cc_images/cache_2472213262.jpg?t=1486740555",
-        "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472213262.jpg?t=1486740555"
-      },
-      "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472213262.jpg?t=1486740555",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/cc_images/cache_2472213262.jpg?t=1486740555",
-      "broken": false
-    },
-    {
-      "url": {
-        "protocol": "https:",
-        "slashes": true,
-        "auth": null,
-        "host": "www.lathiere-finances.fr",
-        "port": null,
-        "hostname": "www.lathiere-finances.fr",
-        "hash": null,
-        "search": "?t=1706786567",
-        "query": "t=1706786567",
-        "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706786567",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786567"
-      },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786567",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786567",
+      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709948137",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1709948137",
       "broken": false
     },
     {
@@ -1004,7 +434,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409541.png?t=1487712492"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409541.png?t=1487712492",
-      "line": "--2024-03-03 01:10:52--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409541.png?t=1487712492",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409541.png?t=1487712492",
       "broken": false
     },
     {
@@ -1023,7 +453,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409541.png?t=1487712492"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409541.png?t=1487712492",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409541.png?t=1487712492",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409541.png?t=1487712492",
       "broken": false
     },
     {
@@ -1042,7 +472,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409542.png?t=1487712507"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409542.png?t=1487712507",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409542.png?t=1487712507",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409542.png?t=1487712507",
       "broken": false
     },
     {
@@ -1061,7 +491,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409542.png?t=1487712507"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409542.png?t=1487712507",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409542.png?t=1487712507",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409542.png?t=1487712507",
       "broken": false
     },
     {
@@ -1080,7 +510,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409543.png?t=1487712526"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409543.png?t=1487712526",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409543.png?t=1487712526",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409543.png?t=1487712526",
       "broken": false
     },
     {
@@ -1099,7 +529,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409543.png?t=1487712526"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409543.png?t=1487712526",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409543.png?t=1487712526",
+      "line": "--2024-03-10 01:11:37--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409543.png?t=1487712526",
       "broken": false
     },
     {
@@ -1118,7 +548,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409544.png?t=1487712573"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409544.png?t=1487712573",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409544.png?t=1487712573",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409544.png?t=1487712573",
       "broken": false
     },
     {
@@ -1137,7 +567,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409544.png?t=1487712573"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409544.png?t=1487712573",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409544.png?t=1487712573",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409544.png?t=1487712573",
       "broken": false
     },
     {
@@ -1156,7 +586,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409545.png?t=1487712587"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409545.png?t=1487712587",
-      "line": "--2024-03-03 01:10:53--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409545.png?t=1487712587",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409545.png?t=1487712587",
       "broken": false
     },
     {
@@ -1175,7 +605,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409545.png?t=1487712587"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409545.png?t=1487712587",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409545.png?t=1487712587",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409545.png?t=1487712587",
       "broken": false
     },
     {
@@ -1194,7 +624,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409546.png?t=1487712603"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409546.png?t=1487712603",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409546.png?t=1487712603",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409546.png?t=1487712603",
       "broken": false
     },
     {
@@ -1213,7 +643,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409546.png?t=1487712603"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409546.png?t=1487712603",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409546.png?t=1487712603",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409546.png?t=1487712603",
       "broken": false
     },
     {
@@ -1232,7 +662,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409552.png?t=1487712617"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409552.png?t=1487712617",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409552.png?t=1487712617",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409552.png?t=1487712617",
       "broken": false
     },
     {
@@ -1251,7 +681,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409552.png?t=1487712617"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409552.png?t=1487712617",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409552.png?t=1487712617",
+      "line": "--2024-03-10 01:11:38--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409552.png?t=1487712617",
       "broken": false
     },
     {
@@ -1270,7 +700,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409553.png?t=1487712632"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409553.png?t=1487712632",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409553.png?t=1487712632",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409553.png?t=1487712632",
       "broken": false
     },
     {
@@ -1289,7 +719,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409553.png?t=1487712632"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409553.png?t=1487712632",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409553.png?t=1487712632",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409553.png?t=1487712632",
       "broken": false
     },
     {
@@ -1308,7 +738,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409554.png?t=1487712644"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409554.png?t=1487712644",
-      "line": "--2024-03-03 01:10:54--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409554.png?t=1487712644",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409554.png?t=1487712644",
       "broken": false
     },
     {
@@ -1327,7 +757,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409554.png?t=1487712644"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409554.png?t=1487712644",
-      "line": "--2024-03-03 01:10:55--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409554.png?t=1487712644",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409554.png?t=1487712644",
       "broken": false
     },
     {
@@ -1346,7 +776,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409555.png?t=1487712656"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409555.png?t=1487712656",
-      "line": "--2024-03-03 01:10:55--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409555.png?t=1487712656",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2472409555.png?t=1487712656",
       "broken": false
     },
     {
@@ -1365,7 +795,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409555.png?t=1487712656"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2472409555.png?t=1487712656",
-      "line": "--2024-03-03 01:10:55--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409555.png?t=1487712656",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/cache_2472409555.png?t=1487712656",
       "broken": false
     },
     {
@@ -1384,7 +814,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722133.png?t=1541008765"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722133.png?t=1541008765",
-      "line": "--2024-03-03 01:10:55--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722133.png?t=1541008765",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722133.png?t=1541008765",
       "broken": false
     },
     {
@@ -1403,7 +833,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2480722133.png?t=1541008765"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2480722133.png?t=1541008765",
-      "line": "--2024-03-03 01:10:55--  https://www.lathiere-finances.fr/s/cc_images/cache_2480722133.png?t=1541008765",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/cache_2480722133.png?t=1541008765",
       "broken": false
     },
     {
@@ -1422,7 +852,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722136.png?t=1541008950"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722136.png?t=1541008950",
-      "line": "--2024-03-03 01:10:55--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722136.png?t=1541008950",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/teaserbox_2480722136.png?t=1541008950",
       "broken": false
     },
     {
@@ -1441,7 +871,7 @@
         "href": "https://www.lathiere-finances.fr/s/cc_images/cache_2480722136.png?t=1541008950"
       },
       "link": "https://www.lathiere-finances.fr/s/cc_images/cache_2480722136.png?t=1541008950",
-      "line": "--2024-03-03 01:10:56--  https://www.lathiere-finances.fr/s/cc_images/cache_2480722136.png?t=1541008950",
+      "line": "--2024-03-10 01:11:39--  https://www.lathiere-finances.fr/s/cc_images/cache_2480722136.png?t=1541008950",
       "broken": false
     },
     {
@@ -1453,14 +883,14 @@
         "port": null,
         "hostname": "www.lathiere-finances.fr",
         "hash": null,
-        "search": "?t=1706737409",
-        "query": "t=1706737409",
+        "search": "?t=1709917177",
+        "query": "t=1709917177",
         "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706737409",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706737409"
+        "path": "/s/misc/logo.png?t=1709917177",
+        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709917177"
       },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706737409",
-      "line": "--2024-03-03 01:10:56--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706737409",
+      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709917177",
+      "line": "--2024-03-10 01:11:40--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1709917177",
       "broken": false
     },
     {
@@ -1472,14 +902,14 @@
         "port": null,
         "hostname": "www.lathiere-finances.fr",
         "hash": null,
-        "search": "?t=1706786565",
-        "query": "t=1706786565",
+        "search": "?t=1709914596",
+        "query": "t=1709914596",
         "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706786565",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786565"
+        "path": "/s/misc/logo.png?t=1709914596",
+        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709914596"
       },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786565",
-      "line": "--2024-03-03 01:10:56--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786565",
+      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709914596",
+      "line": "--2024-03-10 01:11:40--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1709914596",
       "broken": false
     },
     {
@@ -1491,14 +921,14 @@
         "port": null,
         "hostname": "www.lathiere-finances.fr",
         "hash": null,
-        "search": "?t=1706786563",
-        "query": "t=1706786563",
+        "search": "?t=1709955453",
+        "query": "t=1709955453",
         "pathname": "/s/misc/logo.png",
-        "path": "/s/misc/logo.png?t=1706786563",
-        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786563"
+        "path": "/s/misc/logo.png?t=1709955453",
+        "href": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709955453"
       },
-      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786563",
-      "line": "--2024-03-03 01:10:56--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1706786563",
+      "link": "https://www.lathiere-finances.fr/s/misc/logo.png?t=1709955453",
+      "line": "--2024-03-10 01:11:40--  https://www.lathiere-finances.fr/s/misc/logo.png?t=1709955453",
       "broken": false
     }
   ],

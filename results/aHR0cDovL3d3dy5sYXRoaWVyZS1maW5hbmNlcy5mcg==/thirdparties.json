@@ -2,43 +2,43 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/templates/2134/style.css?1706106219239"
+      "url": "https://cdn.website-start.de/templates/2134/style.css?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/web.css?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/web.css?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/css/fr_FR/common,shoppingbasket?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.css?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1709428175"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1710033027"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1709428175"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1710033027"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/web.js?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/web.js?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/s/build/web.bundle.js?1706106219239"
+      "url": "https://cdn.website-start.de/s/build/web.bundle.js?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/mobilenavigation.js?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/moduleserver/js/fr_FR/common,shoppingbasket?1706106219239"
     },
     {
       "type": "unknown",
@@ -46,39 +46,53 @@
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1706106219239"
+      "url": "https://cdn.website-start.de/app/cdn/min/group/pfcsupport.js?1706106219239"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/sections/_res/public/common.css"
+      "url": "https://cdn.website-start.de/sections/_res/public/common.css"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/sections/highlights-1/public/style.css"
+      "url": "https://cdn.website-start.de/sections/highlights-1/public/style.css"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/s/img/cc/printer.gif"
+      "url": "https://cdn.website-start.de/s/img/cc/printer.gif"
     },
     {
       "type": "unknown",
-      "url": "http://cdn.website-start.de/templates/2134/print.css?1706106219239"
+      "url": "https://cdn.website-start.de/templates/2134/print.css?1706106219239"
     }
   ],
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "DIY_SB",
+      "value": "273cb68809f0232185e231b19bdef806",
+      "domain": "www.lathiere-finances.fr",
+      "path": "/",
+      "expires": -1,
+      "size": 38,
+      "httpOnly": false,
+      "secure": true,
+      "session": true,
+      "sameSite": "None",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    }
+  ],
   "headers": {
     "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
-    "connection": "keep-alive",
     "content-encoding": "gzip",
-    "content-length": "5747",
+    "content-length": "5680",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 03 Mar 2024 01:09:35 GMT",
+    "date": "Sun, 10 Mar 2024 01:10:27 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
-    "keep-alive": "timeout=15",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=89865bf076ef7ac55bb03c0eb05770b4; path=/;SameSite=None; secure",
+    "set-cookie": "DIY_SB=273cb68809f0232185e231b19bdef806; path=/;SameSite=None; secure",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
@@ -118,7 +132,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
+          "accuracy_radius": 200,
           "latitude": 51.2993,
           "longitude": 9.491,
           "time_zone": "Europe/Berlin"
