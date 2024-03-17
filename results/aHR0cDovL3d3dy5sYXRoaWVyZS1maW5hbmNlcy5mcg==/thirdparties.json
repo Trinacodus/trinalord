@@ -18,11 +18,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1710033027"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate2-css.php?site=829564594&t=1710637849"
     },
     {
       "type": "unknown",
-      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1710033027"
+      "url": "https://101.sb.mywebsite-editor.com/app/logstate-js.php?site=829564594&t=1710637849"
     },
     {
       "type": "unknown",
@@ -68,7 +68,7 @@
   "cookies": [
     {
       "name": "DIY_SB",
-      "value": "273cb68809f0232185e231b19bdef806",
+      "value": "0207054a4eca4b3ba89eefdd7cc16aa5",
       "domain": "www.lathiere-finances.fr",
       "path": "/",
       "expires": -1,
@@ -85,14 +85,14 @@
   "headers": {
     "cache-control": "no-store, no-cache, must-revalidate, post-check=0, pre-check=0",
     "content-encoding": "gzip",
-    "content-length": "5680",
+    "content-length": "5678",
     "content-security-policy-report-only": "default-src *;script-src 'unsafe-inline' 'unsafe-eval' *;style-src 'unsafe-inline' *;connect-src * blob:;report-uri https://cdn.website-start.de/app/reporting/policyviolation/submit",
     "content-type": "text/html; charset=UTF-8",
-    "date": "Sun, 10 Mar 2024 01:10:27 GMT",
+    "date": "Sun, 17 Mar 2024 01:10:48 GMT",
     "expires": "Thu, 19 Nov 1981 08:52:00 GMT",
     "pragma": "no-cache",
     "server": "Apache",
-    "set-cookie": "DIY_SB=273cb68809f0232185e231b19bdef806; path=/;SameSite=None; secure",
+    "set-cookie": "DIY_SB=0207054a4eca4b3ba89eefdd7cc16aa5; path=/;SameSite=None; secure",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-xss-protection": "0;report=https://cdn.website-start.de/app/reporting/policyviolation/submit"
@@ -188,7 +188,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 1000,
           "latitude": 51.2993,
           "longitude": 9.491,
           "time_zone": "Europe/Berlin"
@@ -244,7 +244,7 @@
           }
         },
         "location": {
-          "accuracy_radius": 200,
+          "accuracy_radius": 1000,
           "latitude": 51.2993,
           "longitude": 9.491,
           "time_zone": "Europe/Berlin"
